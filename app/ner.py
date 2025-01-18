@@ -17,7 +17,8 @@ def extract_entities(text):
     entities = []
     for ent in doc.ents:
         if ent.label_ in ["PERSON", "ORG"]:
-            entities.append(ent.text.lower())
+            cleaned_entity = re.sub(r'\d+', '', ent.text).strip().lower()
+            entities.append(cleaned_entity)
 
     # Check against common names
     filtered_entities = [entity for entity in entities if any(name in entity.split() for name in common_names)]
@@ -30,13 +31,12 @@ def extract_emails(text):
     return emails
 
 def extract_phone_numbers(text):
-    phone_pattern = r'\b\d{10}\b'  # Assuming 10-digit phone numbers
+    phone_pattern = r'\b(?:\+?1[-.\s]?)?(?:\(?\d{3}\)?[-.\s]?)?\d{3}[-.\s]?\d{4}\b'
     phone_numbers = re.findall(phone_pattern, text)
     return phone_numbers
 
 def extract_addresses(text):
-    # Refine regex to better match actual addresses
-    address_pattern = r'\d{1,5}\s\w+\s(?:st|street|rd|road|ave|avenue|blvd|boulevard)\s*'
+    address_pattern = r'\d+\s+\w+\s(?:st|street|rd|road|ave|avenue|blvd|boulevard)\s*'
     addresses = re.findall(address_pattern, text, re.IGNORECASE)
     return addresses
 

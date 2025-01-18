@@ -1,53 +1,357 @@
-2025-01-18 09:53:16,139:INFO:Uploaded file saved to: uploads\unlinearing.pdf
-2025-01-18 09:53:16,139:INFO:Opening PDF file: uploads\unlinearing.pdf
-2025-01-18 09:53:16,147:INFO:Number of pages: 35
-2025-01-18 09:53:16,165:DEBUG:Extracted text from page 0
-2025-01-18 09:53:16,181:DEBUG:Extracted text from page 1
-2025-01-18 09:53:16,194:DEBUG:Extracted text from page 2
-2025-01-18 09:53:16,211:DEBUG:Extracted text from page 3
-2025-01-18 09:53:16,230:DEBUG:Extracted text from page 4
-2025-01-18 09:53:16,248:DEBUG:Extracted text from page 5
-2025-01-18 09:53:16,258:DEBUG:Extracted text from page 6
-2025-01-18 09:53:16,281:DEBUG:Extracted text from page 7
-2025-01-18 09:53:16,290:DEBUG:Extracted text from page 8
-2025-01-18 09:53:16,306:DEBUG:Extracted text from page 9
-2025-01-18 09:53:16,322:DEBUG:Extracted text from page 10
-2025-01-18 09:53:16,338:DEBUG:Extracted text from page 11
-2025-01-18 09:53:16,354:DEBUG:Extracted text from page 12
-2025-01-18 09:53:16,369:DEBUG:Extracted text from page 13
-2025-01-18 09:53:16,387:DEBUG:Extracted text from page 14
-2025-01-18 09:53:16,401:DEBUG:Extracted text from page 15
-2025-01-18 09:53:16,418:DEBUG:Extracted text from page 16
-2025-01-18 09:53:16,434:DEBUG:Extracted text from page 17
-2025-01-18 09:53:16,448:DEBUG:Extracted text from page 18
-2025-01-18 09:53:16,533:DEBUG:Extracted text from page 19
-2025-01-18 09:53:16,544:DEBUG:Extracted text from page 20
-2025-01-18 09:53:16,559:DEBUG:Extracted text from page 21
-2025-01-18 09:53:16,582:DEBUG:Extracted text from page 22
-2025-01-18 09:53:16,591:DEBUG:Extracted text from page 23
-2025-01-18 09:53:16,611:DEBUG:Extracted text from page 24
-2025-01-18 09:53:16,623:DEBUG:Extracted text from page 25
-2025-01-18 09:53:16,623:DEBUG:Extracted text from page 26
-2025-01-18 09:53:16,639:DEBUG:Extracted text from page 27
-2025-01-18 09:53:16,654:DEBUG:Extracted text from page 28
-2025-01-18 09:53:16,654:DEBUG:Extracted text from page 29
-2025-01-18 09:53:16,670:DEBUG:Extracted text from page 30
-2025-01-18 09:53:16,687:DEBUG:Extracted text from page 31
-2025-01-18 09:53:16,687:DEBUG:Extracted text from page 32
-2025-01-18 09:53:16,702:DEBUG:Extracted text from page 33
-2025-01-18 09:53:16,720:DEBUG:Extracted text from page 34
-2025-01-18 09:53:16,729:INFO:Extracted Text: Preprint. Prior version presented at the 2nd Workshop on Generative AI + Law atICML ’24 .
-Machine Unlearning Doesn’t Do What You Think:
-Lessons for Generative AI Policy, Research, and Practice
-A. Feder Cooper\u2217\u22c61,2,3Christopher A. Choquette-Choo\u22174Miranda Bogen\u22175,6
-Matthew Jagielski\u22174Katja Filippova\u22174Ken Ziyu Liu\u22173
-Alexandra Chouldechova2Jamie Hayes4Yangsibo Huang7Niloofar Mireshghallah8
-Ilia Shumailov4Eleni Triantafillou4Peter Kairouz7Nicole Mitchell7
-Percy Liang3Daniel E. Ho9Yejin Choi8Sanmi Koy
-2025-01-18 09:53:16,814:INFO:Preprocessed Text: Preprint . Prior version presented at the 2nd Workshop on Generative AI + Law atICML ’ 24 . Machine Unlearning Doesn ’ t Do What You Think : Lessons for Generative AI Policy , Research , and Practice A. Feder Cooper\u2217\u22c61,2,3Christopher A. Choquette-Choo\u22174Miranda Bogen\u22175,6 Matthew Jagielski\u22174Katja Filippova\u22174Ken Ziyu Liu\u22173 Alexandra Chouldechova2Jamie Hayes4Yangsibo Huang7Niloofar Mireshghallah8 Ilia Shumailov4Eleni Triantafillou4Peter Kairouz7Nicole Mitchell7 Percy Liang3Daniel E. Ho9Yejin Choi8Sa
-2025-01-18 09:53:20,472:INFO:Entities: ['james grimmelmann1,11,12vitaly', 'amy cyphert14mark lemley9danah boyd2jennifer wortman', 'miles brundage david bau15seth neel16abigail z.', 'michael kearns', 'jacob steinhardt', 'john schulman', 'andrew d. selbst', 'james glass', 'lucas bourtoule', 'christopher choquette-choo', 'david lie', 'hannah brown', 'jack clark', 'heather roff', 'jacob steinhardt', 'michael page', 'matthew jagielski', 'hannah washington', 'emily sheng', 'james grimmelmann', 'karen levy', 'karen levy', 'christopher de sa', 'benjamin laufer', 'christopher de sa', 'james grimmelmann', 'christopher callison-burch', 'christopher a. choquette-choo', 'david mimno', 'jack m. balkin', 'christopher de sa', 'jonathan frankle', 'elizabeth joh', 'gautam kamath', 'christopher de sa', 'james grimmelmann', 'gabriel ilharco', 'noah smith', 'michael feffer', 'jonathan berant', 'james zou', 'jonathan frankle', 'james grimmelmann', 'john schulman', 'jacob steinhardt', 'michael tontchev', 'james diffenderfer', 'jacob steinhardt', 'kevin klyman', 'james grimmelmann', 'james grimmelmann', 'alexander pan', 'daniel berrios', 'alice gatti', 'justin d. li', 'gabriel mukobi', 'nathan helm- burger', 'andrew b. liu', 'michael chen', 'justin tienken-harder', 'kevin y. shih', 'john guan', 'david campbell', 'kevin m. esvelt', 'alexander wang', 'jack hessel', 'dylan hadfield-menell', 'michael mathioudakis', 'daniel mcduff', 'josua benjamin', 'joseph lindley', 'kevin meng', 'david bau', 'eric mitchell', 'christopher d manning', 'jacob steinhardt', 'jonathan hayase', 'matthew jagielski', 'christopher a. choquette-choo', 'eric wallace', 'alexander h miller', 'christopher a. choquette-choo', 'jacob ray fuehne', 'david smith', 'emily allaway', 'hannah rashkin', 'matthew jagielski', 'emily h. soice', 'michael specter', 'kevin m. esvelt', 'daniel j. solove', 'david marco sommer', 'alice gatti', 'justin wang', 'jack clark', 'christopher j. williams', 'meera desai', 'emily corvi', 'emily sheng', 'jennifer wortman vaughan', 'matthew vogel', 'hannah washington', 'noah a. smith', 'jason wei', 'iason gabriel', 'william isaac', 'daniel wilf-townsend', 'kevin klyman', 'jonathan zittrain']
-2025-01-18 09:53:20,480:INFO:Emails: []
-2025-01-18 09:53:20,486:INFO:Phone Numbers: ['0300124872']
-2025-01-18 09:53:20,488:INFO:Addresses: ['810 papers st']
-2025-01-18 09:53:20,488:INFO:Extracted data: {'entities': ['james grimmelmann1,11,12vitaly', 'amy cyphert14mark lemley9danah boyd2jennifer wortman', 'miles brundage david bau15seth neel16abigail z.', 'michael kearns', 'jacob steinhardt', 'john schulman', 'andrew d. selbst', 'james glass', 'lucas bourtoule', 'christopher choquette-choo', 'david lie', 'hannah brown', 'jack clark', 'heather roff', 'jacob steinhardt', 'michael page', 'matthew jagielski', 'hannah washington', 'emily sheng', 'james grimmelmann', 'karen levy', 'karen levy', 'christopher de sa', 'benjamin laufer', 'christopher de sa', 'james grimmelmann', 'christopher callison-burch', 'christopher a. choquette-choo', 'david mimno', 'jack m. balkin', 'christopher de sa', 'jonathan frankle', 'elizabeth joh', 'gautam kamath', 'christopher de sa', 'james grimmelmann', 'gabriel ilharco', 'noah smith', 'michael feffer', 'jonathan berant', 'james zou', 'jonathan frankle', 'james grimmelmann', 'john schulman', 'jacob steinhardt', 'michael tontchev', 'james diffenderfer', 'jacob steinhardt', 'kevin klyman', 'james grimmelmann', 'james grimmelmann', 'alexander pan', 'daniel berrios', 'alice gatti', 'justin d. li', 'gabriel mukobi', 'nathan helm- burger', 'andrew b. liu', 'michael chen', 'justin tienken-harder', 'kevin y. shih', 'john guan', 'david campbell', 'kevin m. esvelt', 'alexander wang', 'jack hessel', 'dylan hadfield-menell', 'michael mathioudakis', 'daniel mcduff', 'josua benjamin', 'joseph lindley', 'kevin meng', 'david bau', 'eric mitchell', 'christopher d manning', 'jacob steinhardt', 'jonathan hayase', 'matthew jagielski', 'christopher a. choquette-choo', 'eric wallace', 'alexander h miller', 'christopher a. choquette-choo', 'jacob ray fuehne', 'david smith', 'emily allaway', 'hannah rashkin', 'matthew jagielski', 'emily h. soice', 'michael specter', 'kevin m. esvelt', 'daniel j. solove', 'david marco sommer', 'alice gatti', 'justin wang', 'jack clark', 'christopher j. williams', 'meera desai', 'emily corvi', 'emily sheng', 'jennifer wortman vaughan', 'matthew vogel', 'hannah washington', 'noah a. smith', 'jason wei', 'iason gabriel', 'william isaac', 'daniel wilf-townsend', 'kevin klyman', 'jonathan zittrain'], 'emails': [], 'phone_numbers': ['0300124872'], 'addresses': ['810 papers st']}
-2025-01-18 09:53:20,491:INFO:127.0.0.1 - - [18/Jan/2025 09:53:20] "POST /upload HTTP/1.1" 200 -
+2025-01-18 10:16:24,931:INFO:Uploaded file saved to: uploads\SchultzAdamek24Mastering.pdf
+2025-01-18 10:16:24,931:INFO:Opening PDF file: uploads\SchultzAdamek24Mastering.pdf
+2025-01-18 10:16:24,962:INFO:Number of pages: 71
+2025-01-18 10:16:24,981:DEBUG:Extracted text from page 0
+2025-01-18 10:16:25,010:DEBUG:Extracted text from page 1
+2025-01-18 10:16:25,107:DEBUG:Extracted text from page 2
+2025-01-18 10:16:25,139:DEBUG:Extracted text from page 3
+2025-01-18 10:16:25,169:DEBUG:Extracted text from page 4
+2025-01-18 10:16:25,188:DEBUG:Extracted text from page 5
+2025-01-18 10:16:25,242:DEBUG:Extracted text from page 6
+2025-01-18 10:16:25,282:DEBUG:Extracted text from page 7
+2025-01-18 10:16:25,296:DEBUG:Extracted text from page 8
+2025-01-18 10:16:25,349:DEBUG:Extracted text from page 9
+2025-01-18 10:16:25,361:DEBUG:Extracted text from page 10
+2025-01-18 10:16:25,393:DEBUG:Extracted text from page 11
+2025-01-18 10:16:25,407:DEBUG:Extracted text from page 12
+2025-01-18 10:16:25,422:DEBUG:Extracted text from page 13
+2025-01-18 10:16:25,439:DEBUG:Extracted text from page 14
+2025-01-18 10:16:25,454:DEBUG:Extracted text from page 15
+2025-01-18 10:16:25,457:DEBUG:Extracted text from page 16
+2025-01-18 10:16:25,484:DEBUG:Extracted text from page 17
+2025-01-18 10:16:25,486:DEBUG:Extracted text from page 18
+2025-01-18 10:16:25,510:DEBUG:Extracted text from page 19
+2025-01-18 10:16:25,518:DEBUG:Extracted text from page 20
+2025-01-18 10:16:25,540:DEBUG:Extracted text from page 21
+2025-01-18 10:16:25,540:DEBUG:Extracted text from page 22
+2025-01-18 10:16:25,565:DEBUG:Extracted text from page 23
+2025-01-18 10:16:25,583:DEBUG:Extracted text from page 24
+2025-01-18 10:16:25,596:DEBUG:Extracted text from page 25
+2025-01-18 10:16:25,624:DEBUG:Extracted text from page 26
+2025-01-18 10:16:25,638:DEBUG:Extracted text from page 27
+2025-01-18 10:16:25,653:DEBUG:Extracted text from page 28
+2025-01-18 10:16:25,672:DEBUG:Extracted text from page 29
+2025-01-18 10:16:25,693:DEBUG:Extracted text from page 30
+2025-01-18 10:16:25,699:DEBUG:Extracted text from page 31
+2025-01-18 10:16:25,708:DEBUG:Extracted text from page 32
+2025-01-18 10:16:25,725:DEBUG:Extracted text from page 33
+2025-01-18 10:16:25,807:DEBUG:Extracted text from page 34
+2025-01-18 10:16:25,818:DEBUG:Extracted text from page 35
+2025-01-18 10:16:25,834:DEBUG:Extracted text from page 36
+2025-01-18 10:16:25,849:DEBUG:Extracted text from page 37
+2025-01-18 10:16:25,866:DEBUG:Extracted text from page 38
+2025-01-18 10:16:25,883:DEBUG:Extracted text from page 39
+2025-01-18 10:16:25,899:DEBUG:Extracted text from page 40
+2025-01-18 10:16:25,915:DEBUG:Extracted text from page 41
+2025-01-18 10:16:25,915:DEBUG:Extracted text from page 42
+2025-01-18 10:16:25,941:DEBUG:Extracted text from page 43
+2025-01-18 10:16:25,946:DEBUG:Extracted text from page 44
+2025-01-18 10:16:25,967:DEBUG:Extracted text from page 45
+2025-01-18 10:16:25,983:DEBUG:Extracted text from page 46
+2025-01-18 10:16:25,994:DEBUG:Extracted text from page 47
+2025-01-18 10:16:26,009:DEBUG:Extracted text from page 48
+2025-01-18 10:16:26,021:DEBUG:Extracted text from page 49
+2025-01-18 10:16:26,027:DEBUG:Extracted text from page 50
+2025-01-18 10:16:26,041:DEBUG:Extracted text from page 51
+2025-01-18 10:16:26,058:DEBUG:Extracted text from page 52
+2025-01-18 10:16:26,058:DEBUG:Extracted text from page 53
+2025-01-18 10:16:26,083:DEBUG:Extracted text from page 54
+2025-01-18 10:16:26,090:DEBUG:Extracted text from page 55
+2025-01-18 10:16:26,105:DEBUG:Extracted text from page 56
+2025-01-18 10:16:26,121:DEBUG:Extracted text from page 57
+2025-01-18 10:16:26,139:DEBUG:Extracted text from page 58
+2025-01-18 10:16:26,152:DEBUG:Extracted text from page 59
+2025-01-18 10:16:26,156:DEBUG:Extracted text from page 60
+2025-01-18 10:16:26,169:DEBUG:Extracted text from page 61
+2025-01-18 10:16:26,184:DEBUG:Extracted text from page 62
+2025-01-18 10:16:26,209:DEBUG:Extracted text from page 63
+2025-01-18 10:16:26,216:DEBUG:Extracted text from page 64
+2025-01-18 10:16:26,242:DEBUG:Extracted text from page 65
+2025-01-18 10:16:26,249:DEBUG:Extracted text from page 66
+2025-01-18 10:16:26,263:DEBUG:Extracted text from page 67
+2025-01-18 10:16:26,288:DEBUG:Extracted text from page 68
+2025-01-18 10:16:26,295:DEBUG:Extracted text from page 69
+2025-01-18 10:16:26,310:DEBUG:Extracted text from page 70
+2025-01-18 10:16:31,675:INFO:127.0.0.1 - - [18/Jan/2025 10:16:31] "POST /upload HTTP/1.1" 200 -
+2025-01-18 10:21:12,547:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
+2025-01-18 10:21:12,547:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
+2025-01-18 10:21:12,547:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
+2025-01-18 10:21:14,048:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 10:21:18,136:DEBUG:Creating converter from 7 to 5
+2025-01-18 10:21:18,136:DEBUG:Creating converter from 5 to 7
+2025-01-18 10:21:18,136:DEBUG:Creating converter from 7 to 5
+2025-01-18 10:21:18,136:DEBUG:Creating converter from 5 to 7
+2025-01-18 10:21:19,607:WARNING: * Debugger is active!
+2025-01-18 10:21:19,612:INFO: * Debugger PIN: 136-920-364
+2025-01-18 10:21:24,190:INFO:Uploaded file saved to: uploads\SchultzAdamek24Mastering.pdf
+2025-01-18 10:21:24,190:INFO:Opening PDF file: uploads\SchultzAdamek24Mastering.pdf
+2025-01-18 10:21:24,210:INFO:Number of pages: 71
+2025-01-18 10:21:24,242:DEBUG:Extracted text from page 0
+2025-01-18 10:21:24,258:DEBUG:Extracted text from page 1
+2025-01-18 10:21:24,290:DEBUG:Extracted text from page 2
+2025-01-18 10:21:24,321:DEBUG:Extracted text from page 3
+2025-01-18 10:21:24,339:DEBUG:Extracted text from page 4
+2025-01-18 10:21:24,369:DEBUG:Extracted text from page 5
+2025-01-18 10:21:24,417:DEBUG:Extracted text from page 6
+2025-01-18 10:21:24,464:DEBUG:Extracted text from page 7
+2025-01-18 10:21:24,480:DEBUG:Extracted text from page 8
+2025-01-18 10:21:24,592:DEBUG:Extracted text from page 9
+2025-01-18 10:21:24,608:DEBUG:Extracted text from page 10
+2025-01-18 10:21:24,640:DEBUG:Extracted text from page 11
+2025-01-18 10:21:24,656:DEBUG:Extracted text from page 12
+2025-01-18 10:21:24,675:DEBUG:Extracted text from page 13
+2025-01-18 10:21:24,690:DEBUG:Extracted text from page 14
+2025-01-18 10:21:24,704:DEBUG:Extracted text from page 15
+2025-01-18 10:21:24,704:DEBUG:Extracted text from page 16
+2025-01-18 10:21:24,719:DEBUG:Extracted text from page 17
+2025-01-18 10:21:24,735:DEBUG:Extracted text from page 18
+2025-01-18 10:21:24,752:DEBUG:Extracted text from page 19
+2025-01-18 10:21:24,768:DEBUG:Extracted text from page 20
+2025-01-18 10:21:24,790:DEBUG:Extracted text from page 21
+2025-01-18 10:21:24,790:DEBUG:Extracted text from page 22
+2025-01-18 10:21:24,816:DEBUG:Extracted text from page 23
+2025-01-18 10:21:24,831:DEBUG:Extracted text from page 24
+2025-01-18 10:21:24,847:DEBUG:Extracted text from page 25
+2025-01-18 10:21:24,863:DEBUG:Extracted text from page 26
+2025-01-18 10:21:24,895:DEBUG:Extracted text from page 27
+2025-01-18 10:21:24,896:DEBUG:Extracted text from page 28
+2025-01-18 10:21:24,927:DEBUG:Extracted text from page 29
+2025-01-18 10:21:24,943:DEBUG:Extracted text from page 30
+2025-01-18 10:21:24,959:DEBUG:Extracted text from page 31
+2025-01-18 10:21:24,975:DEBUG:Extracted text from page 32
+2025-01-18 10:21:24,975:DEBUG:Extracted text from page 33
+2025-01-18 10:21:24,991:DEBUG:Extracted text from page 34
+2025-01-18 10:21:25,009:DEBUG:Extracted text from page 35
+2025-01-18 10:21:25,029:DEBUG:Extracted text from page 36
+2025-01-18 10:21:25,038:DEBUG:Extracted text from page 37
+2025-01-18 10:21:25,054:DEBUG:Extracted text from page 38
+2025-01-18 10:21:25,069:DEBUG:Extracted text from page 39
+2025-01-18 10:21:25,091:DEBUG:Extracted text from page 40
+2025-01-18 10:21:25,101:DEBUG:Extracted text from page 41
+2025-01-18 10:21:25,119:DEBUG:Extracted text from page 42
+2025-01-18 10:21:25,134:DEBUG:Extracted text from page 43
+2025-01-18 10:21:25,149:DEBUG:Extracted text from page 44
+2025-01-18 10:21:25,168:DEBUG:Extracted text from page 45
+2025-01-18 10:21:25,183:DEBUG:Extracted text from page 46
+2025-01-18 10:21:25,197:DEBUG:Extracted text from page 47
+2025-01-18 10:21:25,213:DEBUG:Extracted text from page 48
+2025-01-18 10:21:25,213:DEBUG:Extracted text from page 49
+2025-01-18 10:21:25,231:DEBUG:Extracted text from page 50
+2025-01-18 10:21:25,245:DEBUG:Extracted text from page 51
+2025-01-18 10:21:25,261:DEBUG:Extracted text from page 52
+2025-01-18 10:21:25,261:DEBUG:Extracted text from page 53
+2025-01-18 10:21:25,277:DEBUG:Extracted text from page 54
+2025-01-18 10:21:25,293:DEBUG:Extracted text from page 55
+2025-01-18 10:21:25,309:DEBUG:Extracted text from page 56
+2025-01-18 10:21:25,325:DEBUG:Extracted text from page 57
+2025-01-18 10:21:25,343:DEBUG:Extracted text from page 58
+2025-01-18 10:21:25,356:DEBUG:Extracted text from page 59
+2025-01-18 10:21:25,356:DEBUG:Extracted text from page 60
+2025-01-18 10:21:25,372:DEBUG:Extracted text from page 61
+2025-01-18 10:21:25,391:DEBUG:Extracted text from page 62
+2025-01-18 10:21:25,404:DEBUG:Extracted text from page 63
+2025-01-18 10:21:25,420:DEBUG:Extracted text from page 64
+2025-01-18 10:21:25,436:DEBUG:Extracted text from page 65
+2025-01-18 10:21:25,454:DEBUG:Extracted text from page 66
+2025-01-18 10:21:25,468:DEBUG:Extracted text from page 67
+2025-01-18 10:21:25,483:DEBUG:Extracted text from page 68
+2025-01-18 10:21:25,499:DEBUG:Extracted text from page 69
+2025-01-18 10:21:25,499:DEBUG:Extracted text from page 70
+2025-01-18 10:21:31,155:INFO:127.0.0.1 - - [18/Jan/2025 10:21:31] "POST /upload HTTP/1.1" 200 -
+2025-01-18 10:21:59,313:INFO:Uploaded file saved to: uploads\DNM Bible (3-22-2018).pdf
+2025-01-18 10:21:59,313:INFO:Opening PDF file: uploads\DNM Bible (3-22-2018).pdf
+2025-01-18 10:21:59,361:INFO:Number of pages: 133
+2025-01-18 10:21:59,453:DEBUG:Extracted text from page 0
+2025-01-18 10:21:59,453:DEBUG:Extracted text from page 1
+2025-01-18 10:21:59,469:DEBUG:Extracted text from page 2
+2025-01-18 10:21:59,488:DEBUG:Extracted text from page 3
+2025-01-18 10:21:59,501:DEBUG:Extracted text from page 4
+2025-01-18 10:21:59,517:DEBUG:Extracted text from page 5
+2025-01-18 10:21:59,533:DEBUG:Extracted text from page 6
+2025-01-18 10:21:59,549:DEBUG:Extracted text from page 7
+2025-01-18 10:21:59,565:DEBUG:Extracted text from page 8
+2025-01-18 10:21:59,581:DEBUG:Extracted text from page 9
+2025-01-18 10:21:59,596:DEBUG:Extracted text from page 10
+2025-01-18 10:21:59,612:DEBUG:Extracted text from page 11
+2025-01-18 10:21:59,628:DEBUG:Extracted text from page 12
+2025-01-18 10:21:59,628:DEBUG:Extracted text from page 13
+2025-01-18 10:21:59,644:DEBUG:Extracted text from page 14
+2025-01-18 10:21:59,662:DEBUG:Extracted text from page 15
+2025-01-18 10:21:59,676:DEBUG:Extracted text from page 16
+2025-01-18 10:21:59,692:DEBUG:Extracted text from page 17
+2025-01-18 10:21:59,709:DEBUG:Extracted text from page 18
+2025-01-18 10:21:59,723:DEBUG:Extracted text from page 19
+2025-01-18 10:21:59,739:DEBUG:Extracted text from page 20
+2025-01-18 10:21:59,739:DEBUG:Extracted text from page 21
+2025-01-18 10:21:59,755:DEBUG:Extracted text from page 22
+2025-01-18 10:21:59,772:DEBUG:Extracted text from page 23
+2025-01-18 10:21:59,788:DEBUG:Extracted text from page 24
+2025-01-18 10:21:59,788:DEBUG:Extracted text from page 25
+2025-01-18 10:21:59,820:DEBUG:Extracted text from page 26
+2025-01-18 10:21:59,836:DEBUG:Extracted text from page 27
+2025-01-18 10:21:59,852:DEBUG:Extracted text from page 28
+2025-01-18 10:21:59,862:DEBUG:Extracted text from page 29
+2025-01-18 10:21:59,868:DEBUG:Extracted text from page 30
+2025-01-18 10:21:59,884:DEBUG:Extracted text from page 31
+2025-01-18 10:21:59,884:DEBUG:Extracted text from page 32
+2025-01-18 10:21:59,900:DEBUG:Extracted text from page 33
+2025-01-18 10:21:59,915:DEBUG:Extracted text from page 34
+2025-01-18 10:21:59,934:DEBUG:Extracted text from page 35
+2025-01-18 10:21:59,947:DEBUG:Extracted text from page 36
+2025-01-18 10:22:00,044:DEBUG:Extracted text from page 37
+2025-01-18 10:22:00,058:DEBUG:Extracted text from page 38
+2025-01-18 10:22:00,065:DEBUG:Extracted text from page 39
+2025-01-18 10:22:00,081:DEBUG:Extracted text from page 40
+2025-01-18 10:22:00,089:DEBUG:Extracted text from page 41
+2025-01-18 10:22:00,090:DEBUG:Extracted text from page 42
+2025-01-18 10:22:00,106:DEBUG:Extracted text from page 43
+2025-01-18 10:22:00,138:DEBUG:Extracted text from page 44
+2025-01-18 10:22:00,154:DEBUG:Extracted text from page 45
+2025-01-18 10:22:00,162:DEBUG:Extracted text from page 46
+2025-01-18 10:22:00,186:DEBUG:Extracted text from page 47
+2025-01-18 10:22:00,186:DEBUG:Extracted text from page 48
+2025-01-18 10:22:00,202:DEBUG:Extracted text from page 49
+2025-01-18 10:22:00,218:DEBUG:Extracted text from page 50
+2025-01-18 10:22:00,234:DEBUG:Extracted text from page 51
+2025-01-18 10:22:00,262:DEBUG:Extracted text from page 52
+2025-01-18 10:22:00,273:DEBUG:Extracted text from page 53
+2025-01-18 10:22:00,281:DEBUG:Extracted text from page 54
+2025-01-18 10:22:00,300:DEBUG:Extracted text from page 55
+2025-01-18 10:22:00,317:DEBUG:Extracted text from page 56
+2025-01-18 10:22:00,328:DEBUG:Extracted text from page 57
+2025-01-18 10:22:00,328:DEBUG:Extracted text from page 58
+2025-01-18 10:22:00,344:DEBUG:Extracted text from page 59
+2025-01-18 10:22:00,359:DEBUG:Extracted text from page 60
+2025-01-18 10:22:00,362:DEBUG:Extracted text from page 61
+2025-01-18 10:22:00,378:DEBUG:Extracted text from page 62
+2025-01-18 10:22:00,391:DEBUG:Extracted text from page 63
+2025-01-18 10:22:00,407:DEBUG:Extracted text from page 64
+2025-01-18 10:22:00,423:DEBUG:Extracted text from page 65
+2025-01-18 10:22:00,439:DEBUG:Extracted text from page 66
+2025-01-18 10:22:00,458:DEBUG:Extracted text from page 67
+2025-01-18 10:22:00,470:DEBUG:Extracted text from page 68
+2025-01-18 10:22:00,470:DEBUG:Extracted text from page 69
+2025-01-18 10:22:00,486:DEBUG:Extracted text from page 70
+2025-01-18 10:22:00,502:DEBUG:Extracted text from page 71
+2025-01-18 10:22:00,518:DEBUG:Extracted text from page 72
+2025-01-18 10:22:00,518:DEBUG:Extracted text from page 73
+2025-01-18 10:22:00,534:DEBUG:Extracted text from page 74
+2025-01-18 10:22:00,550:DEBUG:Extracted text from page 75
+2025-01-18 10:22:00,563:DEBUG:Extracted text from page 76
+2025-01-18 10:22:00,566:DEBUG:Extracted text from page 77
+2025-01-18 10:22:00,589:DEBUG:Extracted text from page 78
+2025-01-18 10:22:00,663:DEBUG:Extracted text from page 79
+2025-01-18 10:22:00,677:DEBUG:Extracted text from page 80
+2025-01-18 10:22:00,700:DEBUG:Extracted text from page 81
+2025-01-18 10:22:00,708:DEBUG:Extracted text from page 82
+2025-01-18 10:22:00,708:DEBUG:Extracted text from page 83
+2025-01-18 10:22:00,724:DEBUG:Extracted text from page 84
+2025-01-18 10:22:00,740:DEBUG:Extracted text from page 85
+2025-01-18 10:22:00,756:DEBUG:Extracted text from page 86
+2025-01-18 10:22:00,772:DEBUG:Extracted text from page 87
+2025-01-18 10:22:00,772:DEBUG:Extracted text from page 88
+2025-01-18 10:22:00,788:DEBUG:Extracted text from page 89
+2025-01-18 10:22:00,808:DEBUG:Extracted text from page 90
+2025-01-18 10:22:00,822:DEBUG:Extracted text from page 91
+2025-01-18 10:22:00,836:DEBUG:Extracted text from page 92
+2025-01-18 10:22:00,852:DEBUG:Extracted text from page 93
+2025-01-18 10:22:00,868:DEBUG:Extracted text from page 94
+2025-01-18 10:22:00,868:DEBUG:Extracted text from page 95
+2025-01-18 10:22:00,883:DEBUG:Extracted text from page 96
+2025-01-18 10:22:00,899:DEBUG:Extracted text from page 97
+2025-01-18 10:22:00,917:DEBUG:Extracted text from page 98
+2025-01-18 10:22:00,931:DEBUG:Extracted text from page 99
+2025-01-18 10:22:00,947:DEBUG:Extracted text from page 100
+2025-01-18 10:22:00,947:DEBUG:Extracted text from page 101
+2025-01-18 10:22:00,978:DEBUG:Extracted text from page 102
+2025-01-18 10:22:00,994:DEBUG:Extracted text from page 103
+2025-01-18 10:22:01,010:DEBUG:Extracted text from page 104
+2025-01-18 10:22:01,029:DEBUG:Extracted text from page 105
+2025-01-18 10:22:01,042:DEBUG:Extracted text from page 106
+2025-01-18 10:22:01,042:DEBUG:Extracted text from page 107
+2025-01-18 10:22:01,063:DEBUG:Extracted text from page 108
+2025-01-18 10:22:01,075:DEBUG:Extracted text from page 109
+2025-01-18 10:22:01,090:DEBUG:Extracted text from page 110
+2025-01-18 10:22:01,107:DEBUG:Extracted text from page 111
+2025-01-18 10:22:01,122:DEBUG:Extracted text from page 112
+2025-01-18 10:22:01,141:DEBUG:Extracted text from page 113
+2025-01-18 10:22:01,163:DEBUG:Extracted text from page 114
+2025-01-18 10:22:01,183:DEBUG:Extracted text from page 115
+2025-01-18 10:22:01,186:DEBUG:Extracted text from page 116
+2025-01-18 10:22:01,202:DEBUG:Extracted text from page 117
+2025-01-18 10:22:01,218:DEBUG:Extracted text from page 118
+2025-01-18 10:22:01,297:DEBUG:Extracted text from page 119
+2025-01-18 10:22:01,313:DEBUG:Extracted text from page 120
+2025-01-18 10:22:01,331:DEBUG:Extracted text from page 121
+2025-01-18 10:22:01,344:DEBUG:Extracted text from page 122
+2025-01-18 10:22:01,344:DEBUG:Extracted text from page 123
+2025-01-18 10:22:01,363:DEBUG:Extracted text from page 124
+2025-01-18 10:22:01,376:DEBUG:Extracted text from page 125
+2025-01-18 10:22:01,392:DEBUG:Extracted text from page 126
+2025-01-18 10:22:01,408:DEBUG:Extracted text from page 127
+2025-01-18 10:22:01,423:DEBUG:Extracted text from page 128
+2025-01-18 10:22:01,439:DEBUG:Extracted text from page 129
+2025-01-18 10:22:01,439:DEBUG:Extracted text from page 130
+2025-01-18 10:22:01,463:DEBUG:Extracted text from page 131
+2025-01-18 10:22:01,473:DEBUG:Extracted text from page 132
+2025-01-18 10:22:06,717:INFO:127.0.0.1 - - [18/Jan/2025 10:22:06] "POST /upload HTTP/1.1" 200 -
+2025-01-18 10:22:19,704:INFO:Uploaded file saved to: uploads\Celebrating Udit Sheth - A Journey of Innovation and Achievement.pdf
+2025-01-18 10:22:19,704:INFO:Opening PDF file: uploads\Celebrating Udit Sheth - A Journey of Innovation and Achievement.pdf
+2025-01-18 10:22:19,704:INFO:Number of pages: 14
+2025-01-18 10:22:19,719:DEBUG:Extracted text from page 0
+2025-01-18 10:22:19,719:DEBUG:Extracted text from page 1
+2025-01-18 10:22:19,735:DEBUG:Extracted text from page 2
+2025-01-18 10:22:19,735:DEBUG:Extracted text from page 3
+2025-01-18 10:22:19,751:DEBUG:Extracted text from page 4
+2025-01-18 10:22:19,751:DEBUG:Extracted text from page 5
+2025-01-18 10:22:19,751:DEBUG:Extracted text from page 6
+2025-01-18 10:22:19,770:DEBUG:Extracted text from page 7
+2025-01-18 10:22:19,785:DEBUG:Extracted text from page 8
+2025-01-18 10:22:19,785:DEBUG:Extracted text from page 9
+2025-01-18 10:22:19,815:DEBUG:Extracted text from page 10
+2025-01-18 10:22:19,815:DEBUG:Extracted text from page 11
+2025-01-18 10:22:19,831:DEBUG:Extracted text from page 12
+2025-01-18 10:22:19,831:DEBUG:Extracted text from page 13
+2025-01-18 10:22:19,995:INFO:127.0.0.1 - - [18/Jan/2025 10:22:19] "POST /upload HTTP/1.1" 200 -
+2025-01-18 10:22:48,090:INFO:Uploaded file saved to: uploads\Leo Booklet(standard).pdf
+2025-01-18 10:22:48,090:INFO:Opening PDF file: uploads\Leo Booklet(standard).pdf
+2025-01-18 10:22:48,106:INFO:Number of pages: 38
+2025-01-18 10:22:48,122:DEBUG:Extracted text from page 0
+2025-01-18 10:22:48,138:DEBUG:Extracted text from page 1
+2025-01-18 10:22:48,154:DEBUG:Extracted text from page 2
+2025-01-18 10:22:48,172:DEBUG:Extracted text from page 3
+2025-01-18 10:22:48,202:DEBUG:Extracted text from page 4
+2025-01-18 10:22:48,218:DEBUG:Extracted text from page 5
+2025-01-18 10:22:48,234:DEBUG:Extracted text from page 6
+2025-01-18 10:22:48,250:DEBUG:Extracted text from page 7
+2025-01-18 10:22:48,266:DEBUG:Extracted text from page 8
+2025-01-18 10:22:48,395:DEBUG:Extracted text from page 9
+2025-01-18 10:22:48,420:DEBUG:Extracted text from page 10
+2025-01-18 10:22:48,446:DEBUG:Extracted text from page 11
+2025-01-18 10:22:48,472:DEBUG:Extracted text from page 12
+2025-01-18 10:22:48,488:DEBUG:Extracted text from page 13
+2025-01-18 10:22:48,506:DEBUG:Extracted text from page 14
+2025-01-18 10:22:48,535:DEBUG:Extracted text from page 15
+2025-01-18 10:22:48,557:DEBUG:Extracted text from page 16
+2025-01-18 10:22:48,583:DEBUG:Extracted text from page 17
+2025-01-18 10:22:48,678:DEBUG:Extracted text from page 18
+2025-01-18 10:22:48,697:DEBUG:Extracted text from page 19
+2025-01-18 10:22:48,742:DEBUG:Extracted text from page 20
+2025-01-18 10:22:48,758:DEBUG:Extracted text from page 21
+2025-01-18 10:22:48,774:DEBUG:Extracted text from page 22
+2025-01-18 10:22:48,789:DEBUG:Extracted text from page 23
+2025-01-18 10:22:48,828:DEBUG:Extracted text from page 24
+2025-01-18 10:22:48,853:DEBUG:Extracted text from page 25
+2025-01-18 10:22:48,884:DEBUG:Extracted text from page 26
+2025-01-18 10:22:48,916:DEBUG:Extracted text from page 27
+2025-01-18 10:22:48,932:DEBUG:Extracted text from page 28
+2025-01-18 10:22:48,964:DEBUG:Extracted text from page 29
+2025-01-18 10:22:48,980:DEBUG:Extracted text from page 30
+2025-01-18 10:22:48,996:DEBUG:Extracted text from page 31
+2025-01-18 10:22:48,996:DEBUG:Extracted text from page 32
+2025-01-18 10:22:48,996:DEBUG:Extracted text from page 33
+2025-01-18 10:22:49,012:DEBUG:Extracted text from page 34
+2025-01-18 10:22:49,028:DEBUG:Extracted text from page 35
+2025-01-18 10:22:49,028:DEBUG:Extracted text from page 36
+2025-01-18 10:22:49,044:DEBUG:Extracted text from page 37
+2025-01-18 10:22:50,062:INFO:127.0.0.1 - - [18/Jan/2025 10:22:50] "POST /upload HTTP/1.1" 200 -

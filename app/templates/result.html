@@ -5,38 +5,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Extracted Data</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Extracted Data</h1>
 
   <h2>Named Entities</h2>
-  <ul>
-    {% for entity in data.entities %}
-    <li>{{ entity }}</li>
-    {% endfor %}
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Sr. No.</th>
+        <th>Name</th>
+        <th>Frequency</th>
+        <th>Page Numbers</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in entity_table %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ entry.name }}</td>
+        <td>{{ entry.frequency }}</td>
+        <td>{{ entry.pages }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 
   <h2>Emails</h2>
-  <ul>
-    {% for email in data.emails %}
-    <li>{{ email }}</li>
-    {% endfor %}
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Sr. No.</th>
+        <th>Email</th>
+        <th>Frequency</th>
+        <th>Page Numbers</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in email_table %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ entry.email }}</td>
+        <td>{{ entry.frequency }}</td>
+        <td>{{ entry.pages }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 
   <h2>Phone Numbers</h2>
-  <ul>
-    {% for phone_number in data.phone_numbers %}
-    <li>{{ phone_number }}</li>
-    {% endfor %}
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Sr. No.</th>
+        <th>Phone Number</th>
+        <th>Frequency</th>
+        <th>Page Numbers</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in phone_number_table %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ entry.phone_number }}</td>
+        <td>{{ entry.frequency }}</td>
+        <td>{{ entry.pages }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 
   <h2>Addresses</h2>
-  <ul>
-    {% for address in data.addresses %}
-    <li>{{ address }}</li>
-    {% endfor %}
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Sr. No.</th>
+        <th>Address</th>
+        <th>Frequency</th>
+        <th>Page Numbers</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in address_table %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ entry.address }}</td>
+        <td>{{ entry.frequency }}</td>
+        <td>{{ entry.pages }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </body>
 
 </html>
