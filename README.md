@@ -13,7 +13,26 @@ Welcome to the PDF Data Extractor! This tool allows you to effortlessly upload a
 
 ## File Structure
 
-project-folder/ └── app/ ├── main.py├── extract.py├── preprocess.py├── ner.py├── templates/ │ ├── index.html│ ├── result.html└── static/ └── styles.css
+project-folder/ 
+└── app/ 
+│    ├── main.py
+│    ├── extract.py
+│    ├── preprocess.py
+│    ├── ner.py
+│    ├── templates/ 
+│    │ ├── index.html
+│    │ ├── result.html
+│    └── static/ 
+│       └── styles.css
+└── data/
+│    ├── 'add files for debugging'
+└── uploads/
+│    ├── extracted_text.txt
+│    ├── 'pdfs that will be uploaded using the application'
+└── common_names.txt
+└── debug.log
+└── requirements.txt
+└── setup.py (ignore if not debugging)
 
 ### Code Explanation
 
