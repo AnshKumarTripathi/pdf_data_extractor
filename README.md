@@ -1,4 +1,3 @@
-```markdown
 # PDF Data Extractor
 
 ## Overview
@@ -13,48 +12,41 @@ Welcome to the PDF Data Extractor! This tool allows you to effortlessly upload a
 - **User-Friendly Interface**: A clean and intuitive interface for uploading files and viewing extracted data.
 
 ## File Structure
-```
 
-project-folder/
-├── app/
-│ ├── main.py
-│ ├── extract.py
-│ ├── preprocess.py
-│ ├── ner.py
-│ ├── templates/
-│ │ ├── index.html
-│ │ ├── result.html
-│ ├── static/
-│ │ ├── styles.css
+project-folder/ └── app/ ├── main.py├── extract.py├── preprocess.py├── ner.py├── templates/ │ ├── index.html│ ├── result.html└── static/ └── styles.css
 
-````
+### Code Explanation
 
-### `main.py`
+#### `main.py`
 
 The main script of the application that handles file uploads, text extraction, entity extraction, and rendering the results.
 
 **Key Functions:**
+
 - **upload_file()**: Handles file uploads and processes the PDF to extract information and generate a summary.
 
-### `extract.py`
+#### `extract.py`
 
 Responsible for extracting text from PDF files.
 
 **Key Function:**
+
 - **extract_text_from_pdf(pdf_path)**: Extracts text from each page of the PDF and keeps track of page numbers.
 
-### `preprocess.py`
+#### `preprocess.py`
 
 Handles text preprocessing tasks.
 
 **Key Function:**
+
 - **preprocess_text(text)**: Tokenizes the text and retains capitalization for better entity recognition.
 
-### `ner.py`
+#### `ner.py`
 
 Performs Named Entity Recognition (NER) and extracts various entities from the text.
 
 **Key Functions:**
+
 - **extract_entities(text)**: Extracts named entities (persons, organizations).
 - **extract_dates(text)**: Extracts dates from the text.
 - **extract_titles_positions(text)**: Extracts titles and professional positions.
@@ -66,27 +58,30 @@ Performs Named Entity Recognition (NER) and extracts various entities from the t
 - **extract_headings(text)**: Extracts headings from the text for use in summary generation.
 - **summarize_document(text, key_points)**: Generates a summary based on key points and headings extracted from the text.
 
-### `index.html`
+#### `index.html`
 
 The main interface for uploading PDF files.
 
 **Key Elements:**
+
 - **Header**: Displays the title of the application.
 - **Form**: Allows users to upload PDF files.
 
-### `result.html`
+#### `result.html`
 
 Displays the extracted data and document summary.
 
 **Key Elements:**
+
 - **Tables**: Displays extracted named entities, dates, titles/positions, organizations, URLs, emails, phone numbers, and addresses in a tabular format.
 - **Summary**: Displays a detailed document summary with key points highlighted.
 
-### `styles.css`
+#### `styles.css`
 
 A dedicated CSS file for styling the application.
 
 **Key Styles:**
+
 - **Body**: Sets the font, background color, and margin for the entire page.
 - **Header**: Styles the header with a background color and padding.
 - **Container**: Sets the width and margin for the main content.
@@ -96,29 +91,34 @@ A dedicated CSS file for styling the application.
 ## How to Run
 
 1. **Clone the repository**:
-    ```
-    git clone https://github.com/yourusername/pdf-data-extractor.git
-    ```
+
+   ```
+   git clone https://github.com/yourusername/pdf-data-extractor.git
+   ```
 
 2. **Navigate to the project folder**:
-    ```
-    cd pdf-data-extractor/app
-    ```
+
+   ```
+   cd pdf-data-extractor/app
+   ```
 
 3. **Install the required dependencies**:
-    ```
-    pip install -r requirements.txt
-    ```
+
+   ```
+   pip install -r requirements.txt
+   ```
 
 4. **Run the application**:
-    ```
-    python main.py
-    ```
+
+   ```
+   python main.py
+   ```
 
 5. **Open a web browser and navigate to**:
-    ```
-    http://127.0.0.1:5000/
-    ```
+
+   ```
+   http://127.0.0.1:5000/
+   ```
 
 6. **Upload a PDF file and view the extracted data and summary.**
 
@@ -139,4 +139,3 @@ Feel free to submit issues, fork the repository and send pull requests. Contribu
 This project is licensed under the MIT License.
 
 ---
-````
