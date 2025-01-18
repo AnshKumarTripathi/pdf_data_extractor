@@ -8,10 +8,7 @@ def preprocess_text(text):
     # Tokenize text
     tokens = nltk.word_tokenize(text)
 
-    # Convert to lowercase
-    tokens = [token.lower() for token in tokens]
-
-    # Join tokens back into a single string
+    # Retain capitalization
     preprocessed_text = ' '.join(tokens)
 
     return preprocessed_text
