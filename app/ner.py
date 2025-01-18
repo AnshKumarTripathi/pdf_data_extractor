@@ -2,14 +2,24 @@ import spacy
 import re
 from collections import defaultdict
 
+# Load SpaCy model
 nlp = spacy.load("en_core_web_sm")
 
+# Load common names from file
 def load_common_names(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         names = [line.strip().lower() for line in file]
     return set(names)
 
 common_names = load_common_names('common_names.txt')
+
+# Load common titles/positions from file
+def load_common_titles(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        titles = [line.strip().lower() for line in file]
+    return set(titles)
+
+common_titles = load_common_titles('common_titles.txt')
 
 def extract_entities(text):
     doc = nlp(text)
@@ -19,6 +29,7 @@ def extract_entities(text):
             cleaned_entity = re.sub(r'\d+', '', ent.text).strip().lower()
             entities.append(cleaned_entity)
 
+    # Check against common names
     filtered_entities = [entity for entity in entities if any(name in entity.split() for name in common_names)]
 
     return filtered_entities
@@ -29,9 +40,12 @@ def extract_dates(text):
     return dates
 
 def extract_titles_positions(text):
-    title_pattern = r'\b(?:Dr|Mr|Ms|Mrs|Prof|Sir)\.?\s\w+\b'
-    titles = re.findall(title_pattern, text)
-    return titles
+    doc = nlp(text)
+    titles_positions = []
+    for token in doc:
+        if token.text.lower() in common_titles:
+            titles_positions.append(token.text)
+    return titles_positions
 
 def extract_organizations(text):
     doc = nlp(text)
