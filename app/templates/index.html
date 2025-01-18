@@ -5,14 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PDF Data Extractor</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
 
 <body>
-  <h1>Upload PDF</h1>
-  <form action="/upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="file">
-    <input type="submit" value="Upload">
-  </form>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>PDF Data Extractor</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h2>Welcome to the PDF Data Extractor</h2>
+      <p>
+        This PDF Data Extractor tool allows you to effortlessly upload and analyze PDF documents. Extract critical
+        information including names, dates, titles/positions, organizations, URLs, emails, phone numbers, and addresses.
+        Additionally, generate a detailed document summary with key points highlighted for quick insights.
+      </p>
+      <h2>Upload PDF</h2>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload">
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>

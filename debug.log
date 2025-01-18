@@ -1,527 +1,236 @@
-2025-01-18 10:33:59,987:INFO:Uploaded file saved to: uploads\Celebrating Udit Sheth - A Journey of Innovation and Achievement.pdf
-2025-01-18 10:33:59,987:INFO:Opening PDF file: uploads\Celebrating Udit Sheth - A Journey of Innovation and Achievement.pdf
-2025-01-18 10:34:00,002:INFO:Number of pages: 14
-2025-01-18 10:34:00,002:DEBUG:Extracted text from page 0
-2025-01-18 10:34:00,018:DEBUG:Extracted text from page 1
-2025-01-18 10:34:00,018:DEBUG:Extracted text from page 2
-2025-01-18 10:34:00,037:DEBUG:Extracted text from page 3
-2025-01-18 10:34:00,037:DEBUG:Extracted text from page 4
-2025-01-18 10:34:00,050:DEBUG:Extracted text from page 5
-2025-01-18 10:34:00,050:DEBUG:Extracted text from page 6
-2025-01-18 10:34:00,066:DEBUG:Extracted text from page 7
-2025-01-18 10:34:00,066:DEBUG:Extracted text from page 8
-2025-01-18 10:34:00,084:DEBUG:Extracted text from page 9
-2025-01-18 10:34:00,117:DEBUG:Extracted text from page 10
-2025-01-18 10:34:00,123:DEBUG:Extracted text from page 11
-2025-01-18 10:34:00,129:DEBUG:Extracted text from page 12
-2025-01-18 10:34:00,129:DEBUG:Extracted text from page 13
-2025-01-18 10:34:00,272:INFO:127.0.0.1 - - [18/Jan/2025 10:34:00] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
-2025-01-18 10:34:00,383:INFO:127.0.0.1 - - [18/Jan/2025 10:34:00] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-2025-01-18 10:34:00,393:INFO:127.0.0.1 - - [18/Jan/2025 10:34:00] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-2025-01-18 10:34:00,402:INFO:127.0.0.1 - - [18/Jan/2025 10:34:00] "GET /upload?__debugger__=yes&cmd=resource&f=console.png&s=mLEgUR7Pvc7lLXHPGUBA HTTP/1.1" 200 -
-2025-01-18 10:34:00,417:INFO:127.0.0.1 - - [18/Jan/2025 10:34:00] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-2025-01-18 10:35:48,363:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:35:48,363:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:35:48,363:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:35:49,819:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:35:53,911:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:35:53,911:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:35:53,911:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:35:53,911:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:35:55,224:WARNING: * Debugger is active!
-2025-01-18 10:35:55,236:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:36:00,004:INFO:Uploaded file saved to: uploads\Celebrating Udit Sheth - A Journey of Innovation and Achievement.pdf
-2025-01-18 10:36:00,004:INFO:Opening PDF file: uploads\Celebrating Udit Sheth - A Journey of Innovation and Achievement.pdf
-2025-01-18 10:36:00,009:INFO:Number of pages: 14
-2025-01-18 10:36:00,022:DEBUG:Extracted text from page 0
-2025-01-18 10:36:00,022:DEBUG:Extracted text from page 1
-2025-01-18 10:36:00,038:DEBUG:Extracted text from page 2
-2025-01-18 10:36:00,038:DEBUG:Extracted text from page 3
-2025-01-18 10:36:00,054:DEBUG:Extracted text from page 4
-2025-01-18 10:36:00,054:DEBUG:Extracted text from page 5
-2025-01-18 10:36:00,070:DEBUG:Extracted text from page 6
-2025-01-18 10:36:00,070:DEBUG:Extracted text from page 7
-2025-01-18 10:36:00,085:DEBUG:Extracted text from page 8
-2025-01-18 10:36:00,101:DEBUG:Extracted text from page 9
-2025-01-18 10:36:00,133:DEBUG:Extracted text from page 10
-2025-01-18 10:36:00,133:DEBUG:Extracted text from page 11
-2025-01-18 10:36:00,133:DEBUG:Extracted text from page 12
-2025-01-18 10:36:00,149:DEBUG:Extracted text from page 13
-2025-01-18 10:36:00,579:INFO:127.0.0.1 - - [18/Jan/2025 10:36:00] "POST /upload HTTP/1.1" 200 -
-2025-01-18 10:36:34,322:INFO:Uploaded file saved to: uploads\SchultzAdamek24Mastering.pdf
-2025-01-18 10:36:34,322:INFO:Opening PDF file: uploads\SchultzAdamek24Mastering.pdf
-2025-01-18 10:36:34,354:INFO:Number of pages: 71
-2025-01-18 10:36:34,370:DEBUG:Extracted text from page 0
-2025-01-18 10:36:34,385:DEBUG:Extracted text from page 1
-2025-01-18 10:36:34,417:DEBUG:Extracted text from page 2
-2025-01-18 10:36:34,449:DEBUG:Extracted text from page 3
-2025-01-18 10:36:34,479:DEBUG:Extracted text from page 4
-2025-01-18 10:36:34,581:DEBUG:Extracted text from page 5
-2025-01-18 10:36:34,624:DEBUG:Extracted text from page 6
-2025-01-18 10:36:34,671:DEBUG:Extracted text from page 7
-2025-01-18 10:36:34,689:DEBUG:Extracted text from page 8
-2025-01-18 10:36:34,735:DEBUG:Extracted text from page 9
-2025-01-18 10:36:34,750:DEBUG:Extracted text from page 10
-2025-01-18 10:36:34,768:DEBUG:Extracted text from page 11
-2025-01-18 10:36:34,800:DEBUG:Extracted text from page 12
-2025-01-18 10:36:34,816:DEBUG:Extracted text from page 13
-2025-01-18 10:36:34,829:DEBUG:Extracted text from page 14
-2025-01-18 10:36:34,845:DEBUG:Extracted text from page 15
-2025-01-18 10:36:34,845:DEBUG:Extracted text from page 16
-2025-01-18 10:36:34,875:DEBUG:Extracted text from page 17
-2025-01-18 10:36:34,892:DEBUG:Extracted text from page 18
-2025-01-18 10:36:34,907:DEBUG:Extracted text from page 19
-2025-01-18 10:36:34,919:DEBUG:Extracted text from page 20
-2025-01-18 10:36:34,925:DEBUG:Extracted text from page 21
-2025-01-18 10:36:34,941:DEBUG:Extracted text from page 22
-2025-01-18 10:36:34,957:DEBUG:Extracted text from page 23
-2025-01-18 10:36:34,982:DEBUG:Extracted text from page 24
-2025-01-18 10:36:35,005:DEBUG:Extracted text from page 25
-2025-01-18 10:36:35,021:DEBUG:Extracted text from page 26
-2025-01-18 10:36:35,037:DEBUG:Extracted text from page 27
-2025-01-18 10:36:35,037:DEBUG:Extracted text from page 28
-2025-01-18 10:36:35,068:DEBUG:Extracted text from page 29
-2025-01-18 10:36:35,086:DEBUG:Extracted text from page 30
-2025-01-18 10:36:35,100:DEBUG:Extracted text from page 31
-2025-01-18 10:36:35,100:DEBUG:Extracted text from page 32
-2025-01-18 10:36:35,116:DEBUG:Extracted text from page 33
-2025-01-18 10:36:35,134:DEBUG:Extracted text from page 34
-2025-01-18 10:36:35,147:DEBUG:Extracted text from page 35
-2025-01-18 10:36:35,163:DEBUG:Extracted text from page 36
-2025-01-18 10:36:35,182:DEBUG:Extracted text from page 37
-2025-01-18 10:36:35,195:DEBUG:Extracted text from page 38
-2025-01-18 10:36:35,213:DEBUG:Extracted text from page 39
-2025-01-18 10:36:35,227:DEBUG:Extracted text from page 40
-2025-01-18 10:36:35,227:DEBUG:Extracted text from page 41
-2025-01-18 10:36:35,245:DEBUG:Extracted text from page 42
-2025-01-18 10:36:35,259:DEBUG:Extracted text from page 43
-2025-01-18 10:36:35,282:DEBUG:Extracted text from page 44
-2025-01-18 10:36:35,293:DEBUG:Extracted text from page 45
-2025-01-18 10:36:35,307:DEBUG:Extracted text from page 46
-2025-01-18 10:36:35,323:DEBUG:Extracted text from page 47
-2025-01-18 10:36:35,338:DEBUG:Extracted text from page 48
-2025-01-18 10:36:35,354:DEBUG:Extracted text from page 49
-2025-01-18 10:36:35,356:DEBUG:Extracted text from page 50
-2025-01-18 10:36:35,433:DEBUG:Extracted text from page 51
-2025-01-18 10:36:35,449:DEBUG:Extracted text from page 52
-2025-01-18 10:36:35,473:DEBUG:Extracted text from page 53
-2025-01-18 10:36:35,482:DEBUG:Extracted text from page 54
-2025-01-18 10:36:35,497:DEBUG:Extracted text from page 55
-2025-01-18 10:36:35,513:DEBUG:Extracted text from page 56
-2025-01-18 10:36:35,529:DEBUG:Extracted text from page 57
-2025-01-18 10:36:35,535:DEBUG:Extracted text from page 58
-2025-01-18 10:36:35,557:DEBUG:Extracted text from page 59
-2025-01-18 10:36:35,571:DEBUG:Extracted text from page 60
-2025-01-18 10:36:35,579:DEBUG:Extracted text from page 61
-2025-01-18 10:36:35,593:DEBUG:Extracted text from page 62
-2025-01-18 10:36:35,609:DEBUG:Extracted text from page 63
-2025-01-18 10:36:35,625:DEBUG:Extracted text from page 64
-2025-01-18 10:36:35,641:DEBUG:Extracted text from page 65
-2025-01-18 10:36:35,657:DEBUG:Extracted text from page 66
-2025-01-18 10:36:35,672:DEBUG:Extracted text from page 67
-2025-01-18 10:36:35,689:DEBUG:Extracted text from page 68
-2025-01-18 10:36:35,704:DEBUG:Extracted text from page 69
-2025-01-18 10:36:35,704:DEBUG:Extracted text from page 70
-2025-01-18 10:36:52,138:INFO:127.0.0.1 - - [18/Jan/2025 10:36:52] "POST /upload HTTP/1.1" 200 -
-2025-01-18 10:39:30,631:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 10:39:30,632:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 10:39:31,266:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:39:35,625:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:39:35,625:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:39:35,625:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:39:35,625:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:39:37,048:WARNING: * Debugger is active!
-2025-01-18 10:39:37,053:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:39:53,708:INFO: * Detected change in 'C:\\Program Files\\Python312\\Lib\\typing.py', reloading
-2025-01-18 10:39:53,751:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\json\\__init__.py', reloading
-2025-01-18 10:39:53,751:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\blueprints.py', reloading
-2025-01-18 10:39:54,096:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:39:54,747:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:39:58,727:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:39:58,727:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:39:58,727:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:39:58,727:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:40:00,059:WARNING: * Debugger is active!
-2025-01-18 10:40:00,074:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:40:01,351:INFO:Uploaded file saved to: uploads\SchultzAdamek24Mastering.pdf
-2025-01-18 10:40:01,351:INFO:Opening PDF file: uploads\SchultzAdamek24Mastering.pdf
-2025-01-18 10:40:01,379:INFO:Number of pages: 71
-2025-01-18 10:40:01,410:DEBUG:Extracted text from page 0
-2025-01-18 10:40:01,426:DEBUG:Extracted text from page 1
-2025-01-18 10:40:01,458:DEBUG:Extracted text from page 2
-2025-01-18 10:40:01,490:DEBUG:Extracted text from page 3
-2025-01-18 10:40:01,506:DEBUG:Extracted text from page 4
-2025-01-18 10:40:01,538:DEBUG:Extracted text from page 5
-2025-01-18 10:40:01,585:DEBUG:Extracted text from page 6
-2025-01-18 10:40:01,632:DEBUG:Extracted text from page 7
-2025-01-18 10:40:01,665:DEBUG:Extracted text from page 8
-2025-01-18 10:40:01,808:DEBUG:Extracted text from page 9
-2025-01-18 10:40:01,831:DEBUG:Extracted text from page 10
-2025-01-18 10:40:01,853:DEBUG:Extracted text from page 11
-2025-01-18 10:40:01,869:DEBUG:Extracted text from page 12
-2025-01-18 10:40:01,887:DEBUG:Extracted text from page 13
-2025-01-18 10:40:01,901:DEBUG:Extracted text from page 14
-2025-01-18 10:40:01,916:DEBUG:Extracted text from page 15
-2025-01-18 10:40:01,932:DEBUG:Extracted text from page 16
-2025-01-18 10:40:01,951:DEBUG:Extracted text from page 17
-2025-01-18 10:40:01,964:DEBUG:Extracted text from page 18
-2025-01-18 10:40:01,980:DEBUG:Extracted text from page 19
-2025-01-18 10:40:01,998:DEBUG:Extracted text from page 20
-2025-01-18 10:40:02,022:DEBUG:Extracted text from page 21
-2025-01-18 10:40:02,024:DEBUG:Extracted text from page 22
-2025-01-18 10:40:02,044:DEBUG:Extracted text from page 23
-2025-01-18 10:40:02,062:DEBUG:Extracted text from page 24
-2025-01-18 10:40:02,092:DEBUG:Extracted text from page 25
-2025-01-18 10:40:02,109:DEBUG:Extracted text from page 26
-2025-01-18 10:40:02,123:DEBUG:Extracted text from page 27
-2025-01-18 10:40:02,139:DEBUG:Extracted text from page 28
-2025-01-18 10:40:02,155:DEBUG:Extracted text from page 29
-2025-01-18 10:40:02,173:DEBUG:Extracted text from page 30
-2025-01-18 10:40:02,187:DEBUG:Extracted text from page 31
-2025-01-18 10:40:02,203:DEBUG:Extracted text from page 32
-2025-01-18 10:40:02,220:DEBUG:Extracted text from page 33
-2025-01-18 10:40:02,234:DEBUG:Extracted text from page 34
-2025-01-18 10:40:02,250:DEBUG:Extracted text from page 35
-2025-01-18 10:40:02,262:DEBUG:Extracted text from page 36
-2025-01-18 10:40:02,266:DEBUG:Extracted text from page 37
-2025-01-18 10:40:02,289:DEBUG:Extracted text from page 38
-2025-01-18 10:40:02,298:DEBUG:Extracted text from page 39
-2025-01-18 10:40:02,313:DEBUG:Extracted text from page 40
-2025-01-18 10:40:02,336:DEBUG:Extracted text from page 41
-2025-01-18 10:40:02,345:DEBUG:Extracted text from page 42
-2025-01-18 10:40:02,361:DEBUG:Extracted text from page 43
-2025-01-18 10:40:02,377:DEBUG:Extracted text from page 44
-2025-01-18 10:40:02,377:DEBUG:Extracted text from page 45
-2025-01-18 10:40:02,393:DEBUG:Extracted text from page 46
-2025-01-18 10:40:02,408:DEBUG:Extracted text from page 47
-2025-01-18 10:40:02,424:DEBUG:Extracted text from page 48
-2025-01-18 10:40:02,442:DEBUG:Extracted text from page 49
-2025-01-18 10:40:02,456:DEBUG:Extracted text from page 50
-2025-01-18 10:40:02,472:DEBUG:Extracted text from page 51
-2025-01-18 10:40:02,472:DEBUG:Extracted text from page 52
-2025-01-18 10:40:02,488:DEBUG:Extracted text from page 53
-2025-01-18 10:40:02,503:DEBUG:Extracted text from page 54
-2025-01-18 10:40:02,519:DEBUG:Extracted text from page 55
-2025-01-18 10:40:02,535:DEBUG:Extracted text from page 56
-2025-01-18 10:40:02,553:DEBUG:Extracted text from page 57
-2025-01-18 10:40:02,567:DEBUG:Extracted text from page 58
-2025-01-18 10:40:02,569:DEBUG:Extracted text from page 59
-2025-01-18 10:40:02,583:DEBUG:Extracted text from page 60
-2025-01-18 10:40:02,599:DEBUG:Extracted text from page 61
-2025-01-18 10:40:02,620:DEBUG:Extracted text from page 62
-2025-01-18 10:40:02,630:DEBUG:Extracted text from page 63
-2025-01-18 10:40:02,646:DEBUG:Extracted text from page 64
-2025-01-18 10:40:02,664:DEBUG:Extracted text from page 65
-2025-01-18 10:40:02,678:DEBUG:Extracted text from page 66
-2025-01-18 10:40:02,693:DEBUG:Extracted text from page 67
-2025-01-18 10:40:02,709:DEBUG:Extracted text from page 68
-2025-01-18 10:40:02,725:DEBUG:Extracted text from page 69
-2025-01-18 10:40:02,725:DEBUG:Extracted text from page 70
-2025-01-18 10:40:02,742:INFO:127.0.0.1 - - [18/Jan/2025 10:40:02] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
-2025-01-18 10:40:02,863:INFO:127.0.0.1 - - [18/Jan/2025 10:40:02] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2025-01-18 10:40:02,863:INFO:127.0.0.1 - - [18/Jan/2025 10:40:02] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2025-01-18 10:40:02,863:INFO:127.0.0.1 - - [18/Jan/2025 10:40:02] "GET /upload?__debugger__=yes&cmd=resource&f=console.png&s=JWe5Ljhv89wHrt3atVRl HTTP/1.1" 200 -
-2025-01-18 10:40:16,245:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:40:16,245:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:40:17,147:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:40:35,203:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:40:35,203:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:40:35,203:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:40:35,203:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:40:36,457:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2025-01-18 10:40:36,457:INFO:[33mPress CTRL+C to quit[0m
-2025-01-18 10:40:36,467:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:40:40,378:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:40:40,378:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:40:40,378:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:40:40,378:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:40:41,625:WARNING: * Debugger is active!
-2025-01-18 10:40:41,641:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:40:44,989:INFO:Uploaded file saved to: uploads\SchultzAdamek24Mastering.pdf
-2025-01-18 10:40:44,989:INFO:Opening PDF file: uploads\SchultzAdamek24Mastering.pdf
-2025-01-18 10:40:45,021:INFO:Number of pages: 71
-2025-01-18 10:40:45,039:DEBUG:Extracted text from page 0
-2025-01-18 10:40:45,068:DEBUG:Extracted text from page 1
-2025-01-18 10:40:45,084:DEBUG:Extracted text from page 2
-2025-01-18 10:40:45,116:DEBUG:Extracted text from page 3
-2025-01-18 10:40:45,148:DEBUG:Extracted text from page 4
-2025-01-18 10:40:45,163:DEBUG:Extracted text from page 5
-2025-01-18 10:40:45,211:DEBUG:Extracted text from page 6
-2025-01-18 10:40:45,259:DEBUG:Extracted text from page 7
-2025-01-18 10:40:45,281:DEBUG:Extracted text from page 8
-2025-01-18 10:40:45,404:DEBUG:Extracted text from page 9
-2025-01-18 10:40:45,418:DEBUG:Extracted text from page 10
-2025-01-18 10:40:45,450:DEBUG:Extracted text from page 11
-2025-01-18 10:40:45,466:DEBUG:Extracted text from page 12
-2025-01-18 10:40:45,482:DEBUG:Extracted text from page 13
-2025-01-18 10:40:45,498:DEBUG:Extracted text from page 14
-2025-01-18 10:40:45,515:DEBUG:Extracted text from page 15
-2025-01-18 10:40:45,529:DEBUG:Extracted text from page 16
-2025-01-18 10:40:45,529:DEBUG:Extracted text from page 17
-2025-01-18 10:40:45,547:DEBUG:Extracted text from page 18
-2025-01-18 10:40:45,561:DEBUG:Extracted text from page 19
-2025-01-18 10:40:45,581:DEBUG:Extracted text from page 20
-2025-01-18 10:40:45,593:DEBUG:Extracted text from page 21
-2025-01-18 10:40:45,593:DEBUG:Extracted text from page 22
-2025-01-18 10:40:45,627:DEBUG:Extracted text from page 23
-2025-01-18 10:40:45,641:DEBUG:Extracted text from page 24
-2025-01-18 10:40:45,657:DEBUG:Extracted text from page 25
-2025-01-18 10:40:45,688:DEBUG:Extracted text from page 26
-2025-01-18 10:40:45,704:DEBUG:Extracted text from page 27
-2025-01-18 10:40:45,704:DEBUG:Extracted text from page 28
-2025-01-18 10:40:45,739:DEBUG:Extracted text from page 29
-2025-01-18 10:40:45,752:DEBUG:Extracted text from page 30
-2025-01-18 10:40:45,767:DEBUG:Extracted text from page 31
-2025-01-18 10:40:45,783:DEBUG:Extracted text from page 32
-2025-01-18 10:40:45,799:DEBUG:Extracted text from page 33
-2025-01-18 10:40:45,799:DEBUG:Extracted text from page 34
-2025-01-18 10:40:45,827:DEBUG:Extracted text from page 35
-2025-01-18 10:40:45,830:DEBUG:Extracted text from page 36
-2025-01-18 10:40:45,848:DEBUG:Extracted text from page 37
-2025-01-18 10:40:45,862:DEBUG:Extracted text from page 38
-2025-01-18 10:40:45,881:DEBUG:Extracted text from page 39
-2025-01-18 10:40:45,894:DEBUG:Extracted text from page 40
-2025-01-18 10:40:45,910:DEBUG:Extracted text from page 41
-2025-01-18 10:40:45,910:DEBUG:Extracted text from page 42
-2025-01-18 10:40:45,926:DEBUG:Extracted text from page 43
-2025-01-18 10:40:45,942:DEBUG:Extracted text from page 44
-2025-01-18 10:40:45,959:DEBUG:Extracted text from page 45
-2025-01-18 10:40:45,977:DEBUG:Extracted text from page 46
-2025-01-18 10:40:45,990:DEBUG:Extracted text from page 47
-2025-01-18 10:40:45,990:DEBUG:Extracted text from page 48
-2025-01-18 10:40:46,005:DEBUG:Extracted text from page 49
-2025-01-18 10:40:46,021:DEBUG:Extracted text from page 50
-2025-01-18 10:40:46,037:DEBUG:Extracted text from page 51
-2025-01-18 10:40:46,055:DEBUG:Extracted text from page 52
-2025-01-18 10:40:46,055:DEBUG:Extracted text from page 53
-2025-01-18 10:40:46,071:DEBUG:Extracted text from page 54
-2025-01-18 10:40:46,085:DEBUG:Extracted text from page 55
-2025-01-18 10:40:46,101:DEBUG:Extracted text from page 56
-2025-01-18 10:40:46,116:DEBUG:Extracted text from page 57
-2025-01-18 10:40:46,116:DEBUG:Extracted text from page 58
-2025-01-18 10:40:46,132:DEBUG:Extracted text from page 59
-2025-01-18 10:40:46,148:DEBUG:Extracted text from page 60
-2025-01-18 10:40:46,164:DEBUG:Extracted text from page 61
-2025-01-18 10:40:46,182:DEBUG:Extracted text from page 62
-2025-01-18 10:40:46,196:DEBUG:Extracted text from page 63
-2025-01-18 10:40:46,211:DEBUG:Extracted text from page 64
-2025-01-18 10:40:46,227:DEBUG:Extracted text from page 65
-2025-01-18 10:40:46,243:DEBUG:Extracted text from page 66
-2025-01-18 10:40:46,243:DEBUG:Extracted text from page 67
-2025-01-18 10:40:46,273:DEBUG:Extracted text from page 68
-2025-01-18 10:40:46,282:DEBUG:Extracted text from page 69
-2025-01-18 10:40:46,292:DEBUG:Extracted text from page 70
-2025-01-18 10:41:03,283:INFO:127.0.0.1 - - [18/Jan/2025 10:41:03] "POST /upload HTTP/1.1" 200 -
-2025-01-18 10:42:35,505:INFO:Uploaded file saved to: uploads\unlinearing.pdf
-2025-01-18 10:42:35,505:INFO:Opening PDF file: uploads\unlinearing.pdf
-2025-01-18 10:42:35,518:INFO:Number of pages: 35
-2025-01-18 10:42:35,534:DEBUG:Extracted text from page 0
-2025-01-18 10:42:35,550:DEBUG:Extracted text from page 1
-2025-01-18 10:42:35,566:DEBUG:Extracted text from page 2
-2025-01-18 10:42:35,584:DEBUG:Extracted text from page 3
-2025-01-18 10:42:35,602:DEBUG:Extracted text from page 4
-2025-01-18 10:42:35,697:DEBUG:Extracted text from page 5
-2025-01-18 10:42:35,709:DEBUG:Extracted text from page 6
-2025-01-18 10:42:35,709:DEBUG:Extracted text from page 7
-2025-01-18 10:42:35,727:DEBUG:Extracted text from page 8
-2025-01-18 10:42:35,740:DEBUG:Extracted text from page 9
-2025-01-18 10:42:35,756:DEBUG:Extracted text from page 10
-2025-01-18 10:42:35,772:DEBUG:Extracted text from page 11
-2025-01-18 10:42:35,797:DEBUG:Extracted text from page 12
-2025-01-18 10:42:35,804:DEBUG:Extracted text from page 13
-2025-01-18 10:42:35,820:DEBUG:Extracted text from page 14
-2025-01-18 10:42:35,838:DEBUG:Extracted text from page 15
-2025-01-18 10:42:35,852:DEBUG:Extracted text from page 16
-2025-01-18 10:42:35,868:DEBUG:Extracted text from page 17
-2025-01-18 10:42:35,884:DEBUG:Extracted text from page 18
-2025-01-18 10:42:35,897:DEBUG:Extracted text from page 19
-2025-01-18 10:42:35,916:DEBUG:Extracted text from page 20
-2025-01-18 10:42:35,932:DEBUG:Extracted text from page 21
-2025-01-18 10:42:35,949:DEBUG:Extracted text from page 22
-2025-01-18 10:42:35,963:DEBUG:Extracted text from page 23
-2025-01-18 10:42:35,963:DEBUG:Extracted text from page 24
-2025-01-18 10:42:35,979:DEBUG:Extracted text from page 25
-2025-01-18 10:42:35,997:DEBUG:Extracted text from page 26
-2025-01-18 10:42:35,997:DEBUG:Extracted text from page 27
-2025-01-18 10:42:36,011:DEBUG:Extracted text from page 28
-2025-01-18 10:42:36,027:DEBUG:Extracted text from page 29
-2025-01-18 10:42:36,031:DEBUG:Extracted text from page 30
-2025-01-18 10:42:36,043:DEBUG:Extracted text from page 31
-2025-01-18 10:42:36,060:DEBUG:Extracted text from page 32
-2025-01-18 10:42:36,060:DEBUG:Extracted text from page 33
-2025-01-18 10:42:36,080:DEBUG:Extracted text from page 34
-2025-01-18 10:42:46,712:INFO:127.0.0.1 - - [18/Jan/2025 10:42:46] "POST /upload HTTP/1.1" 200 -
-2025-01-18 10:44:01,718:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 10:44:01,719:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 10:44:01,719:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 10:44:03,201:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:44:07,849:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:44:07,849:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:44:07,849:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:44:07,849:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:44:09,407:WARNING: * Debugger is active!
-2025-01-18 10:44:09,411:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:48:03,731:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:48:03,731:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:48:03,731:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:48:04,950:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:48:09,025:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:48:09,025:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:48:09,025:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:48:09,025:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:48:10,391:WARNING: * Debugger is active!
-2025-01-18 10:48:10,391:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:48:11,241:INFO:Uploaded file saved to: uploads\unlinearing.pdf
-2025-01-18 10:48:11,241:INFO:Opening PDF file: uploads\unlinearing.pdf
-2025-01-18 10:48:11,250:INFO:Number of pages: 35
-2025-01-18 10:48:11,282:DEBUG:Extracted text from page 0
-2025-01-18 10:48:11,298:DEBUG:Extracted text from page 1
-2025-01-18 10:48:11,314:DEBUG:Extracted text from page 2
-2025-01-18 10:48:11,330:DEBUG:Extracted text from page 3
-2025-01-18 10:48:11,346:DEBUG:Extracted text from page 4
-2025-01-18 10:48:11,366:DEBUG:Extracted text from page 5
-2025-01-18 10:48:11,381:DEBUG:Extracted text from page 6
-2025-01-18 10:48:11,394:DEBUG:Extracted text from page 7
-2025-01-18 10:48:11,409:DEBUG:Extracted text from page 8
-2025-01-18 10:48:11,425:DEBUG:Extracted text from page 9
-2025-01-18 10:48:11,441:DEBUG:Extracted text from page 10
-2025-01-18 10:48:11,457:DEBUG:Extracted text from page 11
-2025-01-18 10:48:11,457:DEBUG:Extracted text from page 12
-2025-01-18 10:48:11,473:DEBUG:Extracted text from page 13
-2025-01-18 10:48:11,491:DEBUG:Extracted text from page 14
-2025-01-18 10:48:11,505:DEBUG:Extracted text from page 15
-2025-01-18 10:48:11,524:DEBUG:Extracted text from page 16
-2025-01-18 10:48:11,541:DEBUG:Extracted text from page 17
-2025-01-18 10:48:11,552:DEBUG:Extracted text from page 18
-2025-01-18 10:48:11,570:DEBUG:Extracted text from page 19
-2025-01-18 10:48:11,604:DEBUG:Extracted text from page 20
-2025-01-18 10:48:11,617:DEBUG:Extracted text from page 21
-2025-01-18 10:48:11,632:DEBUG:Extracted text from page 22
-2025-01-18 10:48:11,650:DEBUG:Extracted text from page 23
-2025-01-18 10:48:11,662:DEBUG:Extracted text from page 24
-2025-01-18 10:48:11,675:DEBUG:Extracted text from page 25
-2025-01-18 10:48:11,685:DEBUG:Extracted text from page 26
-2025-01-18 10:48:11,695:DEBUG:Extracted text from page 27
-2025-01-18 10:48:11,695:DEBUG:Extracted text from page 28
-2025-01-18 10:48:11,712:DEBUG:Extracted text from page 29
-2025-01-18 10:48:11,731:DEBUG:Extracted text from page 30
-2025-01-18 10:48:11,743:DEBUG:Extracted text from page 31
-2025-01-18 10:48:11,743:DEBUG:Extracted text from page 32
-2025-01-18 10:48:11,759:DEBUG:Extracted text from page 33
-2025-01-18 10:48:11,775:DEBUG:Extracted text from page 34
-2025-01-18 10:48:23,623:INFO:127.0.0.1 - - [18/Jan/2025 10:48:23] "POST /upload HTTP/1.1" 200 -
-2025-01-18 10:55:07,722:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 10:55:07,722:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 10:55:09,218:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:55:13,252:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:55:13,252:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:55:13,252:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:55:13,252:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:55:14,567:WARNING: * Debugger is active!
-2025-01-18 10:55:14,567:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:55:52,799:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:55:52,799:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 10:55:53,621:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 10:55:57,406:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:55:57,406:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:55:57,408:DEBUG:Creating converter from 7 to 5
-2025-01-18 10:55:57,408:DEBUG:Creating converter from 5 to 7
-2025-01-18 10:55:58,726:WARNING: * Debugger is active!
-2025-01-18 10:55:58,732:INFO: * Debugger PIN: 136-920-364
-2025-01-18 10:55:59,982:INFO:Uploaded file saved to: uploads\unlinearing.pdf
-2025-01-18 10:55:59,982:INFO:Opening PDF file: uploads\unlinearing.pdf
-2025-01-18 10:55:59,997:INFO:Number of pages: 35
-2025-01-18 10:56:00,011:DEBUG:Extracted text from page 0
-2025-01-18 10:56:00,027:DEBUG:Extracted text from page 1
-2025-01-18 10:56:00,043:DEBUG:Extracted text from page 2
-2025-01-18 10:56:00,059:DEBUG:Extracted text from page 3
-2025-01-18 10:56:00,075:DEBUG:Extracted text from page 4
-2025-01-18 10:56:00,098:DEBUG:Extracted text from page 5
-2025-01-18 10:56:00,113:DEBUG:Extracted text from page 6
-2025-01-18 10:56:00,127:DEBUG:Extracted text from page 7
-2025-01-18 10:56:00,140:DEBUG:Extracted text from page 8
-2025-01-18 10:56:00,156:DEBUG:Extracted text from page 9
-2025-01-18 10:56:00,170:DEBUG:Extracted text from page 10
-2025-01-18 10:56:00,185:DEBUG:Extracted text from page 11
-2025-01-18 10:56:00,198:DEBUG:Extracted text from page 12
-2025-01-18 10:56:00,203:DEBUG:Extracted text from page 13
-2025-01-18 10:56:00,217:DEBUG:Extracted text from page 14
-2025-01-18 10:56:00,233:DEBUG:Extracted text from page 15
-2025-01-18 10:56:00,249:DEBUG:Extracted text from page 16
-2025-01-18 10:56:00,264:DEBUG:Extracted text from page 17
-2025-01-18 10:56:00,280:DEBUG:Extracted text from page 18
-2025-01-18 10:56:00,298:DEBUG:Extracted text from page 19
-2025-01-18 10:56:00,314:DEBUG:Extracted text from page 20
-2025-01-18 10:56:00,328:DEBUG:Extracted text from page 21
-2025-01-18 10:56:00,344:DEBUG:Extracted text from page 22
-2025-01-18 10:56:00,360:DEBUG:Extracted text from page 23
-2025-01-18 10:56:00,360:DEBUG:Extracted text from page 24
-2025-01-18 10:56:00,376:DEBUG:Extracted text from page 25
-2025-01-18 10:56:00,392:DEBUG:Extracted text from page 26
-2025-01-18 10:56:00,398:DEBUG:Extracted text from page 27
-2025-01-18 10:56:00,410:DEBUG:Extracted text from page 28
-2025-01-18 10:56:00,425:DEBUG:Extracted text from page 29
-2025-01-18 10:56:00,425:DEBUG:Extracted text from page 30
-2025-01-18 10:56:00,439:DEBUG:Extracted text from page 31
-2025-01-18 10:56:00,455:DEBUG:Extracted text from page 32
-2025-01-18 10:56:00,455:DEBUG:Extracted text from page 33
-2025-01-18 10:56:00,471:DEBUG:Extracted text from page 34
-2025-01-18 10:56:12,405:INFO:127.0.0.1 - - [18/Jan/2025 10:56:12] "POST /upload HTTP/1.1" 200 -
-2025-01-18 11:03:13,776:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 11:03:13,777:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
-2025-01-18 11:03:15,275:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 11:03:19,216:DEBUG:Creating converter from 7 to 5
-2025-01-18 11:03:19,216:DEBUG:Creating converter from 5 to 7
-2025-01-18 11:03:19,216:DEBUG:Creating converter from 7 to 5
-2025-01-18 11:03:19,216:DEBUG:Creating converter from 5 to 7
-2025-01-18 11:03:20,558:WARNING: * Debugger is active!
-2025-01-18 11:03:20,563:INFO: * Debugger PIN: 136-920-364
-2025-01-18 11:04:22,576:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 11:04:22,577:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
-2025-01-18 11:04:24,096:INFO: * Restarting with watchdog (windowsapi)
-2025-01-18 11:04:28,073:DEBUG:Creating converter from 7 to 5
-2025-01-18 11:04:28,073:DEBUG:Creating converter from 5 to 7
-2025-01-18 11:04:28,073:DEBUG:Creating converter from 7 to 5
-2025-01-18 11:04:28,073:DEBUG:Creating converter from 5 to 7
-2025-01-18 11:04:29,328:WARNING: * Debugger is active!
-2025-01-18 11:04:29,340:INFO: * Debugger PIN: 136-920-364
-2025-01-18 11:05:22,408:INFO:Uploaded file saved to: uploads\unlinearing.pdf
-2025-01-18 11:05:22,408:INFO:Opening PDF file: uploads\unlinearing.pdf
-2025-01-18 11:05:22,421:INFO:Number of pages: 35
-2025-01-18 11:05:22,439:DEBUG:Extracted text from page 0
-2025-01-18 11:05:22,453:DEBUG:Extracted text from page 1
-2025-01-18 11:05:22,469:DEBUG:Extracted text from page 2
-2025-01-18 11:05:22,485:DEBUG:Extracted text from page 3
-2025-01-18 11:05:22,502:DEBUG:Extracted text from page 4
-2025-01-18 11:05:22,533:DEBUG:Extracted text from page 5
-2025-01-18 11:05:22,549:DEBUG:Extracted text from page 6
-2025-01-18 11:05:22,564:DEBUG:Extracted text from page 7
-2025-01-18 11:05:22,581:DEBUG:Extracted text from page 8
-2025-01-18 11:05:22,596:DEBUG:Extracted text from page 9
-2025-01-18 11:05:22,596:DEBUG:Extracted text from page 10
-2025-01-18 11:05:22,614:DEBUG:Extracted text from page 11
-2025-01-18 11:05:22,628:DEBUG:Extracted text from page 12
-2025-01-18 11:05:22,652:DEBUG:Extracted text from page 13
-2025-01-18 11:05:22,663:DEBUG:Extracted text from page 14
-2025-01-18 11:05:22,675:DEBUG:Extracted text from page 15
-2025-01-18 11:05:22,691:DEBUG:Extracted text from page 16
-2025-01-18 11:05:22,724:DEBUG:Extracted text from page 17
-2025-01-18 11:05:22,740:DEBUG:Extracted text from page 18
-2025-01-18 11:05:22,754:DEBUG:Extracted text from page 19
-2025-01-18 11:05:22,770:DEBUG:Extracted text from page 20
-2025-01-18 11:05:22,786:DEBUG:Extracted text from page 21
-2025-01-18 11:05:22,802:DEBUG:Extracted text from page 22
-2025-01-18 11:05:22,818:DEBUG:Extracted text from page 23
-2025-01-18 11:05:22,818:DEBUG:Extracted text from page 24
-2025-01-18 11:05:22,835:DEBUG:Extracted text from page 25
-2025-01-18 11:05:22,852:DEBUG:Extracted text from page 26
-2025-01-18 11:05:22,852:DEBUG:Extracted text from page 27
-2025-01-18 11:05:22,873:DEBUG:Extracted text from page 28
-2025-01-18 11:05:22,881:DEBUG:Extracted text from page 29
-2025-01-18 11:05:22,881:DEBUG:Extracted text from page 30
-2025-01-18 11:05:22,897:DEBUG:Extracted text from page 31
-2025-01-18 11:05:22,917:DEBUG:Extracted text from page 32
-2025-01-18 11:05:22,917:DEBUG:Extracted text from page 33
-2025-01-18 11:05:22,928:DEBUG:Extracted text from page 34
-2025-01-18 11:05:34,869:INFO:127.0.0.1 - - [18/Jan/2025 11:05:34] "POST /upload HTTP/1.1" 200 -
+2025-01-18 11:11:52,063:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\__init__.py', reloading
+2025-01-18 11:11:52,077:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\__init__.py', reloading
+2025-01-18 11:11:52,079:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\internals.py', reloading
+2025-01-18 11:11:52,079:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\_page.py', reloading
+2025-01-18 11:11:52,079:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\collocations.py', reloading
+2025-01-18 11:11:52,095:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\featstruct.py', reloading
+2025-01-18 11:11:52,095:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\_reader.py', reloading
+2025-01-18 11:11:52,117:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\grammar.py', reloading
+2025-01-18 11:11:52,121:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\_utils.py', reloading
+2025-01-18 11:11:52,129:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\probability.py', reloading
+2025-01-18 11:11:52,130:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\generic\\__init__.py', reloading
+2025-01-18 11:11:52,138:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\_protocols.py', reloading
+2025-01-18 11:11:52,141:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\text.py', reloading
+2025-01-18 11:11:52,149:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\generic\\_base.py', reloading
+2025-01-18 11:11:52,153:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\util.py', reloading
+2025-01-18 11:11:52,155:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\jsontags.py', reloading
+2025-01-18 11:11:52,162:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyPDF2\\generic\\_data_structures.py', reloading
+2025-01-18 11:11:52,171:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\chunk\\__init__.py', reloading
+2025-01-18 11:11:52,180:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\chunk\\api.py', reloading
+2025-01-18 11:11:52,181:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\classify\\__init__.py', reloading
+2025-01-18 11:11:52,190:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\inference\\__init__.py', reloading
+2025-01-18 11:11:52,192:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\chunk\\named_entity.py', reloading
+2025-01-18 11:11:52,199:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\metrics\\__init__.py', reloading
+2025-01-18 11:11:52,209:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\parse\\__init__.py', reloading
+2025-01-18 11:11:52,217:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\parse\\api.py', reloading
+2025-01-18 11:11:52,218:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tag\\__init__.py', reloading
+2025-01-18 11:11:52,226:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tag\\api.py', reloading
+2025-01-18 11:11:52,226:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tokenize\\__init__.py', reloading
+2025-01-18 11:11:52,241:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tokenize\\api.py', reloading
+2025-01-18 11:11:52,241:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tag\\mapping.py', reloading
+2025-01-18 11:11:52,255:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tag\\perceptron.py', reloading
+2025-01-18 11:11:52,256:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tokenize\\destructive.py', reloading
+2025-01-18 11:11:52,256:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tag\\sequential.py', reloading
+2025-01-18 11:11:52,256:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tokenize\\punkt.py', reloading
+2025-01-18 11:11:52,273:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\translate\\__init__.py', reloading
+2025-01-18 11:11:52,273:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tree\\__init__.py', reloading
+2025-01-18 11:11:52,290:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\sem\\__init__.py', reloading
+2025-01-18 11:11:52,290:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\tree\\tree.py', reloading
+2025-01-18 11:11:52,290:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\stem\\__init__.py', reloading
+2025-01-18 11:11:52,323:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\downloader.py', reloading
+2025-01-18 11:11:52,344:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\data.py', reloading
+2025-01-18 11:11:52,357:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\nltk\\collections.py', reloading
+2025-01-18 11:11:52,367:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\__init__.py', reloading
+2025-01-18 11:11:52,377:INFO: * Detected change in 'C:\\Program Files\\Python312\\Lib\\re\\__init__.py', reloading
+2025-01-18 11:11:52,378:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\app.py', reloading
+2025-01-18 11:11:52,387:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\config.py', reloading
+2025-01-18 11:11:52,396:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\globals.py', reloading
+2025-01-18 11:11:52,412:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\helpers.py', reloading
+2025-01-18 11:11:52,420:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\templating.py', reloading
+2025-01-18 11:11:52,429:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\wrappers.py', reloading
+2025-01-18 11:11:52,430:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-01-18 11:11:52,435:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-01-18 11:11:52,445:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\typing.py', reloading
+2025-01-18 11:11:52,456:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\sansio\\app.py', reloading
+2025-01-18 11:11:52,467:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-01-18 11:11:52,478:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-01-18 11:11:52,487:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\utils.py', reloading
+2025-01-18 11:11:52,496:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\jinja2\\__init__.py', reloading
+2025-01-18 11:11:52,506:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-01-18 11:11:52,517:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-01-18 11:11:52,527:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\_internal.py', reloading
+2025-01-18 11:11:52,536:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-01-18 11:11:52,545:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+2025-01-18 11:11:52,546:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\jinja2\\environment.py', reloading
+2025-01-18 11:11:52,554:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-01-18 11:11:52,563:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-01-18 11:11:52,574:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-01-18 11:11:52,601:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\thinc\\api.py', reloading
+2025-01-18 11:11:52,614:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\spacy\\util.py', reloading
+2025-01-18 11:11:52,626:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\spacy\\language.py', reloading
+2025-01-18 11:11:52,639:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\catalogue\\__init__.py', reloading
+2025-01-18 11:11:52,639:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\spacy\\tokens\\__init__.py', reloading
+2025-01-18 11:11:52,639:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-01-18 11:11:52,639:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2025-01-18 11:11:52,660:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2025-01-18 11:11:52,660:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+2025-01-18 11:11:52,675:INFO: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python312\\site-packages\\confection\\__init__.py', reloading
+2025-01-18 11:11:53,398:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 11:12:03,693:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:12:03,693:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:12:03,693:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:12:03,693:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:12:06,512:WARNING: * Debugger is active!
+2025-01-18 11:12:06,516:INFO: * Debugger PIN: 136-920-364
+2025-01-18 11:12:06,607:INFO:127.0.0.1 - - [18/Jan/2025 11:12:06] "GET / HTTP/1.1" 200 -
+2025-01-18 11:12:06,657:INFO:127.0.0.1 - - [18/Jan/2025 11:12:06] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-18 11:12:51,205:INFO:127.0.0.1 - - [18/Jan/2025 11:12:51] "GET / HTTP/1.1" 200 -
+2025-01-18 11:12:51,276:INFO:127.0.0.1 - - [18/Jan/2025 11:12:51] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-18 11:12:55,259:INFO:Uploaded file saved to: uploads\unlinearing.pdf
+2025-01-18 11:12:55,259:INFO:Opening PDF file: uploads\unlinearing.pdf
+2025-01-18 11:12:55,265:INFO:Number of pages: 35
+2025-01-18 11:12:55,281:DEBUG:Extracted text from page 0
+2025-01-18 11:12:55,311:DEBUG:Extracted text from page 1
+2025-01-18 11:12:55,315:DEBUG:Extracted text from page 2
+2025-01-18 11:12:55,329:DEBUG:Extracted text from page 3
+2025-01-18 11:12:55,360:DEBUG:Extracted text from page 4
+2025-01-18 11:12:55,376:DEBUG:Extracted text from page 5
+2025-01-18 11:12:55,392:DEBUG:Extracted text from page 6
+2025-01-18 11:12:55,411:DEBUG:Extracted text from page 7
+2025-01-18 11:12:55,424:DEBUG:Extracted text from page 8
+2025-01-18 11:12:55,440:DEBUG:Extracted text from page 9
+2025-01-18 11:12:55,457:DEBUG:Extracted text from page 10
+2025-01-18 11:12:55,471:DEBUG:Extracted text from page 11
+2025-01-18 11:12:55,471:DEBUG:Extracted text from page 12
+2025-01-18 11:12:55,487:DEBUG:Extracted text from page 13
+2025-01-18 11:12:55,511:DEBUG:Extracted text from page 14
+2025-01-18 11:12:55,519:DEBUG:Extracted text from page 15
+2025-01-18 11:12:55,535:DEBUG:Extracted text from page 16
+2025-01-18 11:12:55,556:DEBUG:Extracted text from page 17
+2025-01-18 11:12:55,573:DEBUG:Extracted text from page 18
+2025-01-18 11:12:55,582:DEBUG:Extracted text from page 19
+2025-01-18 11:12:55,598:DEBUG:Extracted text from page 20
+2025-01-18 11:12:55,614:DEBUG:Extracted text from page 21
+2025-01-18 11:12:55,630:DEBUG:Extracted text from page 22
+2025-01-18 11:12:55,646:DEBUG:Extracted text from page 23
+2025-01-18 11:12:55,662:DEBUG:Extracted text from page 24
+2025-01-18 11:12:55,662:DEBUG:Extracted text from page 25
+2025-01-18 11:12:55,684:DEBUG:Extracted text from page 26
+2025-01-18 11:12:55,694:DEBUG:Extracted text from page 27
+2025-01-18 11:12:55,694:DEBUG:Extracted text from page 28
+2025-01-18 11:12:55,711:DEBUG:Extracted text from page 29
+2025-01-18 11:12:55,718:DEBUG:Extracted text from page 30
+2025-01-18 11:12:55,726:DEBUG:Extracted text from page 31
+2025-01-18 11:12:55,742:DEBUG:Extracted text from page 32
+2025-01-18 11:12:55,742:DEBUG:Extracted text from page 33
+2025-01-18 11:12:55,758:DEBUG:Extracted text from page 34
+2025-01-18 11:13:07,661:INFO:127.0.0.1 - - [18/Jan/2025 11:13:07] "POST /upload HTTP/1.1" 200 -
+2025-01-18 11:13:07,695:INFO:127.0.0.1 - - [18/Jan/2025 11:13:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-18 11:16:50,614:INFO:127.0.0.1 - - [18/Jan/2025 11:16:50] "GET / HTTP/1.1" 200 -
+2025-01-18 11:16:50,653:INFO:127.0.0.1 - - [18/Jan/2025 11:16:50] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-18 11:20:29,439:INFO:127.0.0.1 - - [18/Jan/2025 11:20:29] "GET / HTTP/1.1" 200 -
+2025-01-18 11:20:29,472:INFO:127.0.0.1 - - [18/Jan/2025 11:20:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-18 11:25:39,241:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
+2025-01-18 11:25:39,241:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
+2025-01-18 11:25:39,242:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\main.py', reloading
+2025-01-18 11:25:40,200:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 11:25:44,365:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:25:44,365:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:25:44,365:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:25:44,365:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:25:45,836:WARNING: * Debugger is active!
+2025-01-18 11:25:45,840:INFO: * Debugger PIN: 136-920-364
+2025-01-18 11:25:47,396:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\extract.py', reloading
+2025-01-18 11:25:47,396:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\extract.py', reloading
+2025-01-18 11:25:47,396:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\extract.py', reloading
+2025-01-18 11:25:48,601:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 11:25:52,904:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:25:52,904:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:25:52,904:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:25:52,904:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:25:54,358:WARNING: * Debugger is active!
+2025-01-18 11:25:54,362:INFO: * Debugger PIN: 136-920-364
+2025-01-18 11:26:03,081:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
+2025-01-18 11:26:04,613:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 11:26:08,731:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:08,731:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:08,731:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:08,731:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:10,091:WARNING: * Debugger is active!
+2025-01-18 11:26:10,105:INFO: * Debugger PIN: 136-920-364
+2025-01-18 11:26:11,022:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\preprocess.py', reloading
+2025-01-18 11:26:11,022:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\preprocess.py', reloading
+2025-01-18 11:26:11,760:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 11:26:15,746:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:15,746:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:15,746:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:15,746:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:17,125:WARNING: * Debugger is active!
+2025-01-18 11:26:17,125:INFO: * Debugger PIN: 136-920-364
+2025-01-18 11:26:18,879:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\utlis.py', reloading
+2025-01-18 11:26:20,007:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 11:26:24,212:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:24,212:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:24,212:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:24,212:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:25,544:WARNING: * Debugger is active!
+2025-01-18 11:26:25,544:INFO: * Debugger PIN: 136-920-364
+2025-01-18 11:26:39,397:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
+2025-01-18 11:26:39,397:INFO: * Detected change in 'd:\\Fact-byte Porject\\pdf_data_extractor\\app\\ner.py', reloading
+2025-01-18 11:26:40,031:INFO: * Restarting with watchdog (windowsapi)
+2025-01-18 11:26:43,909:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:43,909:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:43,909:DEBUG:Creating converter from 7 to 5
+2025-01-18 11:26:43,909:DEBUG:Creating converter from 5 to 7
+2025-01-18 11:26:45,283:WARNING: * Debugger is active!
+2025-01-18 11:26:45,283:INFO: * Debugger PIN: 136-920-364
+2025-01-18 11:26:52,002:INFO:127.0.0.1 - - [18/Jan/2025 11:26:52] "GET / HTTP/1.1" 200 -
+2025-01-18 11:26:52,082:INFO:127.0.0.1 - - [18/Jan/2025 11:26:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-18 11:27:13,616:INFO:127.0.0.1 - - [18/Jan/2025 11:27:13] "GET / HTTP/1.1" 200 -
+2025-01-18 11:27:13,632:INFO:127.0.0.1 - - [18/Jan/2025 11:27:13] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-18 11:27:50,680:INFO:127.0.0.1 - - [18/Jan/2025 11:27:50] "GET / HTTP/1.1" 200 -
+2025-01-18 11:27:50,710:INFO:127.0.0.1 - - [18/Jan/2025 11:27:50] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-18 11:27:59,343:INFO:127.0.0.1 - - [18/Jan/2025 11:27:59] "GET / HTTP/1.1" 200 -
+2025-01-18 11:27:59,383:INFO:127.0.0.1 - - [18/Jan/2025 11:27:59] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-18 11:28:16,755:INFO:127.0.0.1 - - [18/Jan/2025 11:28:16] "GET / HTTP/1.1" 200 -
+2025-01-18 11:28:16,775:INFO:127.0.0.1 - - [18/Jan/2025 11:28:16] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-18 11:28:22,605:INFO:Uploaded file saved to: uploads\unlinearing.pdf
+2025-01-18 11:28:22,605:INFO:Opening PDF file: uploads\unlinearing.pdf
+2025-01-18 11:28:22,620:INFO:Number of pages: 35
+2025-01-18 11:28:22,636:DEBUG:Extracted text from page 0
+2025-01-18 11:28:22,652:DEBUG:Extracted text from page 1
+2025-01-18 11:28:22,668:DEBUG:Extracted text from page 2
+2025-01-18 11:28:22,685:DEBUG:Extracted text from page 3
+2025-01-18 11:28:22,703:DEBUG:Extracted text from page 4
+2025-01-18 11:28:22,716:DEBUG:Extracted text from page 5
+2025-01-18 11:28:22,732:DEBUG:Extracted text from page 6
+2025-01-18 11:28:22,748:DEBUG:Extracted text from page 7
+2025-01-18 11:28:22,764:DEBUG:Extracted text from page 8
+2025-01-18 11:28:22,780:DEBUG:Extracted text from page 9
+2025-01-18 11:28:22,796:DEBUG:Extracted text from page 10
+2025-01-18 11:28:22,814:DEBUG:Extracted text from page 11
+2025-01-18 11:28:22,828:DEBUG:Extracted text from page 12
+2025-01-18 11:28:22,844:DEBUG:Extracted text from page 13
+2025-01-18 11:28:22,863:DEBUG:Extracted text from page 14
+2025-01-18 11:28:22,876:DEBUG:Extracted text from page 15
+2025-01-18 11:28:22,891:DEBUG:Extracted text from page 16
+2025-01-18 11:28:22,907:DEBUG:Extracted text from page 17
+2025-01-18 11:28:22,927:DEBUG:Extracted text from page 18
+2025-01-18 11:28:22,939:DEBUG:Extracted text from page 19
+2025-01-18 11:28:22,963:DEBUG:Extracted text from page 20
+2025-01-18 11:28:22,971:DEBUG:Extracted text from page 21
+2025-01-18 11:28:22,989:DEBUG:Extracted text from page 22
+2025-01-18 11:28:23,003:DEBUG:Extracted text from page 23
+2025-01-18 11:28:23,019:DEBUG:Extracted text from page 24
+2025-01-18 11:28:23,035:DEBUG:Extracted text from page 25
+2025-01-18 11:28:23,037:DEBUG:Extracted text from page 26
+2025-01-18 11:28:23,057:DEBUG:Extracted text from page 27
+2025-01-18 11:28:23,067:DEBUG:Extracted text from page 28
+2025-01-18 11:28:23,067:DEBUG:Extracted text from page 29
+2025-01-18 11:28:23,083:DEBUG:Extracted text from page 30
+2025-01-18 11:28:23,098:DEBUG:Extracted text from page 31
+2025-01-18 11:28:23,098:DEBUG:Extracted text from page 32
+2025-01-18 11:28:23,114:DEBUG:Extracted text from page 33
+2025-01-18 11:28:23,130:DEBUG:Extracted text from page 34
+2025-01-18 11:28:35,093:INFO:127.0.0.1 - - [18/Jan/2025 11:28:35] "POST /upload HTTP/1.1" 200 -
+2025-01-18 11:28:35,113:INFO:127.0.0.1 - - [18/Jan/2025 11:28:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

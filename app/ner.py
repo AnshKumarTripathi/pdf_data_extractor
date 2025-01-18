@@ -2,10 +2,8 @@ import spacy
 import re
 from collections import defaultdict
 
-# Load SpaCy model
 nlp = spacy.load("en_core_web_sm")
 
-# Load common names from file
 def load_common_names(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         names = [line.strip().lower() for line in file]
@@ -21,7 +19,6 @@ def extract_entities(text):
             cleaned_entity = re.sub(r'\d+', '', ent.text).strip().lower()
             entities.append(cleaned_entity)
 
-    # Check against common names
     filtered_entities = [entity for entity in entities if any(name in entity.split() for name in common_names)]
 
     return filtered_entities

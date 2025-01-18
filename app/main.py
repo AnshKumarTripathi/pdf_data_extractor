@@ -13,7 +13,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
-# Configure logging
 logging.basicConfig(filename='debug.log', level=logging.DEBUG, 
                     format='%(asctime)s:%(levelname)s:%(message)s')
 

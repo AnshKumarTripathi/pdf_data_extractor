@@ -1,14 +1,11 @@
 import nltk
 import re
 
-# Ensure required NLTK data is downloaded
 nltk.download('punkt')
 
 def preprocess_text(text):
-    # Tokenize text
     tokens = nltk.word_tokenize(text)
 
-    # Retain capitalization
     preprocessed_text = ' '.join(tokens)
 
     return preprocessed_text
