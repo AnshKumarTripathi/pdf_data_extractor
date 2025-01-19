@@ -1,12 +1,14 @@
 import os
 import logging
-from flask import Flask, request, render_template, redirect, url_for
+from flask import Flask, request, render_template, redirect, url_for, session
 from extract import extract_text_from_pdf
 from preprocess import preprocess_text
 from ner import extract_entities, extract_dates, extract_titles_positions, extract_organizations, extract_urls, extract_emails, extract_phone_numbers, extract_addresses, extract_headings, summarize_document
 from collections import defaultdict
+import tempfile
 
 app = Flask(__name__)
+app.secret_key = 'your_secret_key'  # Replace with a secret key for session management
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
@@ -30,11 +32,11 @@ def upload_file():
         return redirect(request.url)
     
     if file:
-        file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-        file.save(file_path)
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as temp_file:
+            file.save(temp_file.name)
         
-        logging.info(f"Uploaded file saved to: {file_path}")
-        all_text = extract_text_from_pdf(file_path)
+        logging.info(f"Uploaded file saved to: {temp_file.name}")
+        all_text = extract_text_from_pdf(temp_file.name)
         
         entity_tracker = {}
         date_tracker = defaultdict(list)
@@ -97,87 +99,95 @@ def upload_file():
         
         summary = summarize_document(all_text_combined, headings)
         
-        # Prepare data for display
-        entity_table = [
-            {
-                "name": entity,
-                "frequency": details["frequency"],
-                "pages": ", ".join(map(str, details["pages"]))
-            }
-            for entity, details in entity_tracker.items()
-        ]
+        # Clean up the temporary file
+        temp_file.close()
+        os.unlink(temp_file.name)
         
-        date_table = [
-            {
-                "date": date,
-                "pages": ", ".join(map(str, pages))
-            }
-            for date, pages in date_tracker.items()
-        ]
-        
-        title_position_table = [
-            {
-                "title_position": title_position,
-                "pages": ", ".join(map(str, pages))
-            }
-            for title_position, pages in title_position_tracker.items()
-        ]
-        
-        organization_table = [
-            {
-                "organization": organization,
-                "pages": ", ".join(map(str, pages))
-            }
-            for organization, pages in organization_tracker.items()
-        ]
-        
-        url_table = [
-            {
-                "url": url,
-                "pages": ", ".join(map(str, pages))
-            }
-            for url, pages in url_tracker.items()
-        ]
-        
-        email_table = [
-            {
-                "email": email,
-                "frequency": details["frequency"],
-                "pages": ", ".join(map(str, details["pages"]))
-            }
-            for email, details in email_tracker.items()
-        ]
-        
-        phone_number_table = [
-            {
-                "phone_number": phone_number,
-                "frequency": details["frequency"],
-                "pages": ", ".join(map(str, details["pages"]))
-            }
-            for phone_number, details in phone_number_tracker.items()
-        ]
-        
-        address_table = [
-            {
-                "address": address,
-                "frequency": details["frequency"],
-                "pages": ", ".join(map(str, details["pages"]))
-            }
-            for address, details in address_tracker.items()
-        ]
+        # Store extracted data in session
+        session['extracted_data'] = {
+            'entity_table': [
+                {
+                    "name": entity,
+                    "frequency": details["frequency"],
+                    "pages": ", ".join(map(str, details["pages"]))
+                }
+                for entity, details in entity_tracker.items()
+            ],
+            'date_table': [
+                {
+                    "date": date,
+                    "pages": ", ".join(map(str, pages))
+                }
+                for date, pages in date_tracker.items()
+            ],
+            'title_position_table': [
+                {
+                    "title_position": title_position,
+                    "pages": ", ".join(map(str, pages))
+                }
+                for title_position, pages in title_position_tracker.items()
+            ],
+            'organization_table': [
+                {
+                    "organization": organization,
+                    "pages": ", ".join(map(str, pages))
+                }
+                for organization, pages in organization_tracker.items()
+            ],
+            'url_table': [
+                {
+                    "url": url,
+                    "pages": ", ".join(map(str, pages))
+                }
+                for url, pages in url_tracker.items()
+            ],
+            'email_table': [
+                {
+                    "email": email,
+                    "frequency": details["frequency"],
+                    "pages": ", ".join(map(str, details["pages"]))
+                }
+                for email, details in email_tracker.items()
+            ],
+            'phone_number_table': [
+                {
+                    "phone_number": phone_number,
+                    "frequency": details["frequency"],
+                    "pages": ", ".join(map(str, details["pages"]))
+                }
+                for phone_number, details in phone_number_tracker.items()
+            ],
+            'address_table': [
+                {
+                    "address": address,
+                    "frequency": details["frequency"],
+                    "pages": ", ".join(map(str, details["pages"]))
+                }
+                for address, details in address_tracker.items()
+            ],
+            'summary': summary
+        }
         
         return render_template(
             'result.html',
-            entity_table=entity_table,
-            date_table=date_table,
-            title_position_table=title_position_table,
-            organization_table=organization_table,
-            url_table=url_table,
-            email_table=email_table,
-            phone_number_table=phone_number_table,
-            address_table=address_table,
-            summary=summary
+            entity_table=session['extracted_data']['entity_table'],
+            date_table=session['extracted_data']['date_table'],
+            title_position_table=session['extracted_data']['title_position_table'],
+            organization_table=session['extracted_data']['organization_table'],
+            url_table=session['extracted_data']['url_table'],
+            email_table=session['extracted_data']['email_table'],
+            phone_number_table=session['extracted_data']['phone_number_table'],
+            address_table=session['extracted_data']['address_table'],
+            summary=session['extracted_data']['summary']
         )
+
+@app.errorhandler(500)
+def internal_error(error):
+    return f"An error occurred: {str(error)}", 500
+
+@app.errorhandler(404)
+def not_found_error(error):
+    return "Page not found", 404
 
 if __name__ == "__main__":
     app.run(debug=True)
