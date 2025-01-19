@@ -6,9 +6,17 @@ from preprocess import preprocess_text
 from ner import extract_entities, extract_dates, extract_titles_positions, extract_organizations, extract_urls, extract_emails, extract_phone_numbers, extract_addresses, extract_headings, summarize_document
 from collections import defaultdict
 import tempfile
+from flask_wtf.csrf import CSRFProtect
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Replace with a secret key for session management
+app.secret_key = os.urandom(24)  
+app.config['SESSION_COOKIE_HTTPONLY'] = True  
+app.config['SESSION_COOKIE_SECURE'] = True  
+app.config['SESSION_PERMANENT'] = False  
+
+csrf = CSRFProtect(app)
+csrf.init_app(app)
+
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
@@ -18,17 +26,21 @@ if not os.path.exists(UPLOAD_FOLDER):
 logging.basicConfig(filename='debug.log', level=logging.DEBUG, 
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in {'pdf'}
+
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/upload', methods=['POST'])
+@csrf.exempt  # CSRF protection for the upload route
 def upload_file():
     if 'file' not in request.files:
         return redirect(request.url)
     
     file = request.files['file']
-    if file.filename == '':
+    if file.filename == '' or not allowed_file(file.filename):
         return redirect(request.url)
     
     if file:
@@ -183,7 +195,8 @@ def upload_file():
 
 @app.errorhandler(500)
 def internal_error(error):
-    return f"An error occurred: {str(error)}", 500
+    logging.error(f"Server error: {error}")
+    return "An unexpected error occurred. Please try again later.", 500
 
 @app.errorhandler(404)
 def not_found_error(error):
