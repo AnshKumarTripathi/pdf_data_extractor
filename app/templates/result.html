@@ -4,16 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Extracted Data</title>
+  <title>PDF Snap</title>
   <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-<body>
+<body class="light-theme">
   <header>
     <div class="container">
       <div id="branding">
-        <h1>Extracted Data</h1>
+        <h1>PDF Snap - Extracted Data</h1>
       </div>
+      <nav>
+        <button id="theme-toggle">Toggle Dark Theme</button>
+      </nav>
     </div>
   </header>
 
@@ -193,6 +196,13 @@
       </ul>
     </div>
   </div>
+
+  <footer>
+    <p>This project is for educational purposes only. Made by Ansh Kumar Tripathi. <a
+        href="https://www.linkedin.com/in/ansh-kumar-tripathi-64841a2b5/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="static/theme.js"></script>
 </body>
 
 </html>
