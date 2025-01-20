@@ -3,7 +3,10 @@ import logging
 from flask import Flask, request, render_template, redirect, url_for, send_file
 from extract import extract_text_from_pdf
 from preprocess import preprocess_text
-from ner import extract_entities, extract_dates, extract_titles_positions, extract_organizations, extract_urls, extract_emails, extract_phone_numbers, extract_addresses, extract_headings, summarize_document
+from ner import (
+    extract_entities, extract_dates, extract_titles_positions, extract_organizations, extract_urls,
+    extract_emails, extract_phone_numbers, extract_addresses, extract_headings, summarize_document
+)
 from collections import defaultdict
 import tempfile
 from flask_wtf.csrf import CSRFProtect
@@ -208,48 +211,6 @@ def result():
     
     return render_template('result.html', **extracted_data)
 
-# @app.route('/save_as_text')
-# def save_as_text():
-#     data_file = request.args.get('data_file')
-#     if not data_file or not os.path.exists(data_file):
-#         return redirect(url_for('index'))
-    
-#     with open(data_file, 'r') as f:
-#         extracted_data = json.load(f)
-    
-#     content = extracted_data.get('summary', "No data available")
-#     return send_file(BytesIO(content.encode()), attachment_filename='content.txt', as_attachment=True)
-
-# @app.route('/save_as_word')
-# def save_as_word():
-#     data_file = request.args.get('data_file')
-#     if not data_file or not os.path.exists(data_file):
-#         return redirect(url_for('index'))
-    
-#     with open(data_file, 'r') as f:
-#         extracted_data = json.load(f)
-    
-#     content = extracted_data.get('summary', "No data available")
-#     doc = Document()
-#     doc.add_paragraph(content)
-#     byte_io = BytesIO()
-#     doc.save(byte_io)
-#     byte_io.seek(0)
-#     return send_file(byte_io, attachment_filename='content.docx', as_attachment=True)
-
-# @app.route('/save_as_pdf')
-# def save_as_pdf():
-#     data_file = request.args.get('data_file')
-#     if not data_file or not os.path.exists(data_file):
-#         return redirect(url_for('index'))
-    
-#     with open(data_file, 'r') as f:
-#         extracted_data = json.load(f)
-    
-#     content = extracted_data.get('summary', "No data available")
-#     pdf_content = pdfkit.from_string(content, False)
-#     return send_file(BytesIO(pdf_content), attachment_filename='content.pdf', as_attachment=True)
-
 @app.errorhandler(500)
 def internal_error(error):
     logging.error(f"Server error: {error}")
@@ -259,5 +220,7 @@ def internal_error(error):
 def not_found_error(error):
     return "Page not found", 404
 
-# if __name__ == "__main__":
-#     app.run(debug=True)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
