@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Extracted Data</title>
-  <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
@@ -13,7 +13,7 @@
   <header>
     <div class="container">
       <div id="branding">
-        <h1>Extracted Data</h1>
+        <h1>PDF Sanp - Extracted Data &#128128;</h1>
       </div>
       <nav>
         <button id="theme-toggle">Toggle Dark Theme</button>
@@ -23,21 +23,217 @@
 
   <div class="container">
     <div class="content">
-      <h2>Extracted Information</h2>
+      <h2>Named Entities</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>Name</th>
+            <th>Frequency</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in entity_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.name }}</td>
+            <td>{{ entry.frequency }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>Dates</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>Date</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in date_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.date }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>Titles/Positions</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>Title/Position</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in title_position_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.title_position }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>Organizations</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>Organization</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in organization_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.organization }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>URLs</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>URL</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in url_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.url }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>Emails</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>Email</th>
+            <th>Frequency</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in email_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.email }}</td>
+            <td>{{ entry.frequency }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>Phone Numbers</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>Phone Number</th>
+            <th>Frequency</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in phone_number_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.phone_number }}</td>
+            <td>{{ entry.frequency }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>Addresses</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th>Address</th>
+            <th>Frequency</th>
+            <th>Page Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in address_table %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ entry.address }}</td>
+            <td>{{ entry.frequency }}</td>
+            <td>{{ entry.pages }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>Document Summary</h2>
       <ul>
-        <li><strong>Title:</strong> {{ extracted_data['title'] }}</li>
-        <li><strong>Author:</strong> {{ extracted_data['author'] }}</li>
-        <li><strong>Content:</strong> {{ extracted_data['content'] }}</li>
+        {{ summary | safe }}
       </ul>
     </div>
   </div>
 
+  <!-- <div class="container">
+    <div class="content">
+      <h2>Save As:</h2>
+      <button onclick="saveAsText()">Save as Text</button>
+      <button onclick="saveAsWord()">Save as Word</button>
+      <button onclick="saveAsPDF()">Save as PDF</button>
+    </div>
+  </div> -->
+
   <footer>
-    <p>This project is for educational purposes only. Made by Ansh Kumar Tripathi. <a
-        href="https://www.linkedin.com/in/ansh-kumar-tripathi-64841a2b5/" target="_blank">LinkedIn</a></p>
+    <p>This project is for educational purposes only. Made by Ansh Kumar Tripathi.
+      <a href="https://www.linkedin.com/in/ansh-kumar-tripathi-64841a2b5/" target="_blank">LinkedIn</a>
+    </p>
+    <br>
+    <p>
+      <a href="https://forms.gle/cpQ34WXx2qzkezYH7" target="_blank">I would love to hear your Feedbacks</a>
+    </p>
   </footer>
 
-  <script src="static/theme.js"></script>
+  <script src="{{url_for('static', filename='theme.js')}}"></script>
+  <!-- <script>
+    function saveAsText() {
+      const dataFile = new URLSearchParams(window.location.search).get('data_file');
+      window.location.href = `/save_as_text?data_file=${dataFile}`;
+    }
+
+    function saveAsWord() {
+      const dataFile = new URLSearchParams(window.location.search).get('data_file');
+      window.location.href = `/save_as_word?data_file=${dataFile}`;
+    }
+
+    function saveAsPDF() {
+      const dataFile = new URLSearchParams(window.location.search).get('data_file');
+      window.location.href = `/save_as_pdf?data_file=${dataFile}`;
+    }
+  </script> -->
 </body>
 
 </html>

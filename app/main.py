@@ -1,29 +1,37 @@
 import os
 import logging
-from flask import Flask, request, render_template, redirect, url_for, session
+from flask import Flask, request, render_template, redirect, url_for, send_file
 from extract import extract_text_from_pdf
 from preprocess import preprocess_text
 from ner import extract_entities, extract_dates, extract_titles_positions, extract_organizations, extract_urls, extract_emails, extract_phone_numbers, extract_addresses, extract_headings, summarize_document
 from collections import defaultdict
 import tempfile
 from flask_wtf.csrf import CSRFProtect
+from io import BytesIO
+from docx import Document
+import json
+import pdfkit
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)  
-app.config['SESSION_COOKIE_HTTPONLY'] = True  
-app.config['SESSION_COOKIE_SECURE'] = True  
-app.config['SESSION_PERMANENT'] = False  
+app.secret_key = os.urandom(24)
+app.config['SESSION_COOKIE_HTTPONLY'] = True
+app.config['SESSION_COOKIE_SECURE'] = True
+app.config['SESSION_PERMANENT'] = False
 
 csrf = CSRFProtect(app)
 csrf.init_app(app)
 
 UPLOAD_FOLDER = 'uploads'
+DATA_FOLDER = 'data'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['DATA_FOLDER'] = DATA_FOLDER
 
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
+if not os.path.exists(DATA_FOLDER):
+    os.makedirs(DATA_FOLDER)
 
-logging.basicConfig(filename='debug.log', level=logging.DEBUG, 
+logging.basicConfig(filename='debug.log', level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
 def allowed_file(filename):
@@ -115,8 +123,12 @@ def upload_file():
         temp_file.close()
         os.unlink(temp_file.name)
         
-        # Store extracted data in session
-        session['extracted_data'] = {
+        # Store extracted data in a temporary file
+        data = {
+            'title': 'Document Title',  # Replace with actual title extraction
+            'author': 'Document Author',  # Replace with actual author extraction
+            'content': all_text_combined,
+            'summary': summary,
             'entity_table': [
                 {
                     "name": entity,
@@ -176,22 +188,67 @@ def upload_file():
                     "pages": ", ".join(map(str, details["pages"]))
                 }
                 for address, details in address_tracker.items()
-            ],
-            'summary': summary
+            ]
         }
         
-        return render_template(
-            'result.html',
-            entity_table=session['extracted_data']['entity_table'],
-            date_table=session['extracted_data']['date_table'],
-            title_position_table=session['extracted_data']['title_position_table'],
-            organization_table=session['extracted_data']['organization_table'],
-            url_table=session['extracted_data']['url_table'],
-            email_table=session['extracted_data']['email_table'],
-            phone_number_table=session['extracted_data']['phone_number_table'],
-            address_table=session['extracted_data']['address_table'],
-            summary=session['extracted_data']['summary']
-        )
+        data_file = os.path.join(app.config['DATA_FOLDER'], 'extracted_data.json')
+        with open(data_file, 'w') as f:
+            json.dump(data, f)
+        
+        return redirect(url_for('result', data_file=data_file))
+
+@app.route('/result')
+def result():
+    data_file = request.args.get('data_file')
+    if not data_file or not os.path.exists(data_file):
+        return redirect(url_for('index'))
+    
+    with open(data_file, 'r') as f:
+        extracted_data = json.load(f)
+    
+    return render_template('result.html', **extracted_data)
+
+# @app.route('/save_as_text')
+# def save_as_text():
+#     data_file = request.args.get('data_file')
+#     if not data_file or not os.path.exists(data_file):
+#         return redirect(url_for('index'))
+    
+#     with open(data_file, 'r') as f:
+#         extracted_data = json.load(f)
+    
+#     content = extracted_data.get('summary', "No data available")
+#     return send_file(BytesIO(content.encode()), attachment_filename='content.txt', as_attachment=True)
+
+# @app.route('/save_as_word')
+# def save_as_word():
+#     data_file = request.args.get('data_file')
+#     if not data_file or not os.path.exists(data_file):
+#         return redirect(url_for('index'))
+    
+#     with open(data_file, 'r') as f:
+#         extracted_data = json.load(f)
+    
+#     content = extracted_data.get('summary', "No data available")
+#     doc = Document()
+#     doc.add_paragraph(content)
+#     byte_io = BytesIO()
+#     doc.save(byte_io)
+#     byte_io.seek(0)
+#     return send_file(byte_io, attachment_filename='content.docx', as_attachment=True)
+
+# @app.route('/save_as_pdf')
+# def save_as_pdf():
+#     data_file = request.args.get('data_file')
+#     if not data_file or not os.path.exists(data_file):
+#         return redirect(url_for('index'))
+    
+#     with open(data_file, 'r') as f:
+#         extracted_data = json.load(f)
+    
+#     content = extracted_data.get('summary', "No data available")
+#     pdf_content = pdfkit.from_string(content, False)
+#     return send_file(BytesIO(pdf_content), attachment_filename='content.pdf', as_attachment=True)
 
 @app.errorhandler(500)
 def internal_error(error):
