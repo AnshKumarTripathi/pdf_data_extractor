@@ -1,9 +1,14 @@
 import spacy
 import re
+import subprocess
 from collections import defaultdict
 
-# Load SpaCy model
-nlp = spacy.load("en_core_web_sm")
+# Ensure the model is installed
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
 # Load common names from file
 def load_common_names(file_path):
