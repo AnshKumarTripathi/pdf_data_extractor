@@ -1,9 +1,9 @@
 import os
 import logging
 from flask import Flask, request, render_template, redirect, url_for, send_file
-from extract import extract_text_from_pdf
-from preprocess import preprocess_text
-from ner import (
+from app.extract import extract_text_from_pdf
+from app.preprocess import preprocess_text
+from app.ner import (
     extract_entities, extract_dates, extract_titles_positions, extract_organizations, extract_urls,
     extract_emails, extract_phone_numbers, extract_addresses, extract_headings, summarize_document
 )
@@ -14,6 +14,7 @@ from io import BytesIO
 from docx import Document
 import json
 import pdfkit
+
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
