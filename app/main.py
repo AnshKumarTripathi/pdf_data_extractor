@@ -11,9 +11,9 @@ from collections import defaultdict
 import tempfile
 from flask_wtf.csrf import CSRFProtect
 from io import BytesIO
-from docx import Document
+# from docx import Document
 import json
-import pdfkit
+# import pdfkit
 
 
 app = Flask(__name__)
